@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.matquant14.cddarktheme
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

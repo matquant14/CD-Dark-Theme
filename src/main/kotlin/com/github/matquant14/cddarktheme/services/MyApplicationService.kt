@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.matquant14.cddarktheme.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.matquant14.cddarktheme.MyBundle
 
 class MyApplicationService {
 
