@@ -3,5 +3,5 @@
 # CD-Dark-Theme Changelog
 
 ## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+### Initial Release
+- Initial release with color settings
