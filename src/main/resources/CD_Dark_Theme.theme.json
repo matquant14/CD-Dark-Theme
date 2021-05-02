@@ -335,8 +335,8 @@
       "onForeground": "blueaccent"
     },
     "ToolTip": {
-      "background": "grey37",
-      "Actions.background": "grey34"
+      "background": "grey117",
+      "Actions.background": "grey115"
     },
     "ToolWindow": {
       "Header": {
