@@ -3,5 +3,7 @@
 # CD-Dark-Theme Changelog
 
 
-### Initial Release
+## Initial Release 1.0.0
 - Initial release with color settings
+## [Unreleased]
+## [1.0.0]
