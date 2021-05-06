@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.0.2
+- Updated ToolWindow Color
+
 ## Release 1.0.1 
 - Change plugin Icon
 
