@@ -340,7 +340,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "background": "grey153",
+        "background": "grey80",
         "inactiveBackground": "grey115"
       },
       "HeaderTab": {
@@ -351,8 +351,8 @@
         "inactiveUnderlineColor": "blueaccent"
       },
       "Button": {
-        "hoverBackground": "grey80",
-        "selectedBackground": "grey115",
+        "hoverBackground": "grey117",
+        "selectedBackground": "grey80",
         "selectedForeground": "white"
       }
     },
