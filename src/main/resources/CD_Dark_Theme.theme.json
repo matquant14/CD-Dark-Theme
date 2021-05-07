@@ -64,7 +64,7 @@
   },
   "ui": {
     "*": {
-      "underlineHeight": 1
+      "underlineHeight": 2
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
@@ -131,8 +131,11 @@
     },
     "DebuggerPopup.borderColor": "grey34",
     "DefaultTabs": {
-      "underlineColor": "blueaccent",
-      "inactiveUnderlineColor": "orange10",
+      "underlineColor": "orange49",
+      "underlinedTabBackground": "grey80",
+      "underlinedTabForeground": "white",
+      "underlineHeight": 2,
+      "inactiveUnderlineColor": "blueaccent",
       "hoverBackground": "grey80"
     },
     "DragAndDrop": {
@@ -150,8 +153,8 @@
       "inactiveForeground": "grey153"
     },
     "EditorTabs": {
-      "underlineColor": "blueaccent",
-      "underlineHeight": 1,
+      "underlineColor": "orange49",
+      "underlineHeight": 2,
       "underlinedTabBackground": "grey80",
       "inactiveColoredFileBackground": "grey50"
     },
@@ -259,14 +262,14 @@
         "thumbBorderColor": "blueaccent",
         "hoverThumbColor": "blueaccent",
         "hoverThumbBorderColor": "blueaccent",
-        "hoverTrackColor": "grey153",
-        "trackColor": "grey153"
+        "hoverTrackColor": "grey41",
+        "trackColor": "grey41"
       },
       "thumbColor": "blueaccent",
       "thumbBorderColor": "blueaccent",
       "hoverThumbColor": "blueaccent",
       "hoverThumbBorderColor": "blueaccent",
-      "trackColor": "grey153",
+      "trackColor": "grey41",
       "hoverTrackColor": "grey153",
       "thumbShadow": "grey41",
       "Mac": {
@@ -287,13 +290,21 @@
       }
     },
     "SearchEverywhere": {
+      "Header": {
+        "background": "grey41"
+      },
       "Tab": {
         "selectedForeground": "white",
         "selectedBackground": "orange10"
       },
-      "SearchField.borderColor": "grey34",
+      "SearchField": {
+        "background": "grey80",
+        "borderColor": "grey34",
+        "infoForeground": "white"
+      },
       "Advertiser": {
         "background": "grey36",
+        "foreground": "white",
         "borderInsets": "3,8,5,0"
       }
     },
@@ -304,8 +315,7 @@
     "SpeedSearch": {
       "foreground": "white",
       "borderColor": "grey50",
-      "background": "orange10",
-      "errorForeground": "white"
+      "background": "orange10"
     },
     "StatusBar.borderColor": "grey34",
     "TabbedPane": {
@@ -313,7 +323,7 @@
       "disabledUnderlineColor": "grey153",
       "focusColor": "grey80",
       "hoverColor": "orange10",
-      "underlineColor": "blueaccent"
+      "underlineColor": "orange49"
     },
     "Table": {
       "stripeColor": "grey36",
@@ -329,7 +339,7 @@
     "ToggleButton": {
       "borderColor": "grey80",
       "buttonColor": "grey80",
-      "offBackground": "white",
+      "offBackground": "grey80",
       "offForeground": "white",
       "onBackground": "blueaccent",
       "onForeground": "blueaccent"
@@ -341,13 +351,13 @@
     "ToolWindow": {
       "Header": {
         "background": "grey80",
-        "inactiveBackground": "grey115"
+        "inactiveBackground": "grey41"
       },
       "HeaderTab": {
         "selectedInactiveBackground": "grey36",
         "hoverBackground": "orange10",
         "hoverInactiveBackground": "orange10",
-        "underlineColor": "blueaccent",
+        "underlineColor": "orange49",
         "inactiveUnderlineColor": "blueaccent"
       },
       "Button": {
@@ -357,7 +367,7 @@
       }
     },
     "Tree": {
-      "modifiedItemForeground": "orange49",
+      "modifiedItemForeground": "orange10",
       "hoverBackground": "grey117",
       "hoverInactiveBackground": "grey41",
       "foreground": "white",
