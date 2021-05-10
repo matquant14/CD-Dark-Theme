@@ -27,15 +27,6 @@
     "grey44": "#2c2c2cff",
     "greyblue97": "#565d61ff",
     "grey37": "#252525ff",
-    "greyDot15": "#d8d8d8",
-    "greyDot20": "#cccccc",
-    "greyDot25": "#bfbfbf",
-    "greyDot33": "#aaaaaa",
-    "greyDot50": "#7d7d7d",
-    "greyDot60": "#666666",
-    "greyDot65": "#5a5a5a",
-    "greyDot70": "#4d4d4d",
-    "greyDot75": "#434343",
     "greyWinPalette": "#b2b2b2",
     "orange9": "#ea7209ff",
     "orange10": "#B84E0A",
@@ -64,7 +55,7 @@
   },
   "ui": {
     "*": {
-      "underlineHeight": 2
+      "underlineHeight": 1
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
@@ -117,8 +108,9 @@
       "inactiveErrorFocusColor": "#743A3A",
       "warningFocusColor": "yellowWinPalette",
       "inactiveWarningFocusColor": "#7F6C00",
-      "iconColor": "white",
-      "hoverIconColor": "white"
+      "iconColor": "grey34",
+      "hoverIconColor": "grey34",
+      "infoForeground": "orange49"
     },
     "Counter": {
       "background": "blueaccent",
@@ -134,7 +126,7 @@
       "underlineColor": "orange49",
       "underlinedTabBackground": "grey80",
       "underlinedTabForeground": "white",
-      "underlineHeight": 2,
+      "underlineHeight": 1,
       "inactiveUnderlineColor": "blueaccent",
       "hoverBackground": "grey80"
     },
@@ -150,11 +142,13 @@
     },
     "EditorPane": {
       "inactiveBackground": "grey34",
-      "inactiveForeground": "grey153"
+      "inactiveForeground": "grey153",
+      "selectionForeground": "yellowMac",
+      "selectionBackground": "blueaccent"
     },
     "EditorTabs": {
       "underlineColor": "orange49",
-      "underlineHeight": 2,
+      "underlineHeight": 1,
       "underlinedTabBackground": "grey80",
       "inactiveColoredFileBackground": "grey50"
     },
@@ -165,6 +159,10 @@
       "Violet": "#1e153d",
       "Orange": "#894500",
       "Rose": "#7f0000"
+    },
+    "FormattedTextField": {
+      "selectionBackground": "blueaccent",
+      "selectionForeground": "yellowMac"
     },
     "Link": {
       "activeForeground": "blueaccent",
@@ -182,12 +180,17 @@
       "background": "grey50",
       "borderColor": "grey80"
     },
+    "NewClass": {
+      "SearchField.background": "grey80",
+      "Panel.background": "grey80",
+      "separatorWidth": 4
+    },
     "List": {
       "background": "grey50",
       "dropLineColor": "white",
       "foreground": "white",
       "selectionBackground": "grey115",
-      "selectionForeground": "orange49",
+      "selectionForeground": "yellow",
       "selectionInactiveBackground": "grey80"
     },
     "NavBar.borderColor": "whiteoff",
@@ -239,8 +242,8 @@
       "inactiveBorderColor": "grey34",
       "Toolbar.borderColor": "grey36",
       "separatorForeground": "white",
-      "Header.activeBackground": "grey80",
-      "Header.inactiveBackground": "grey75",
+      "Header.activeBackground": "grey50",
+      "Header.inactiveBackground": "grey50",
       "Advertiser": {
         "background": "grey34",
         "foreground": "blueaccent"
@@ -254,7 +257,7 @@
       "progressColor": "blueaccent",
       "selectionBackground": "orange10",
       "selectionForeground": "white",
-      "trackColor": "organge10"
+      "trackColor": "orange10"
     },
     "ScrollBar": {
       "Transparent": {
@@ -262,7 +265,7 @@
         "thumbBorderColor": "blueaccent",
         "hoverThumbColor": "blueaccent",
         "hoverThumbBorderColor": "blueaccent",
-        "hoverTrackColor": "grey41",
+        "hoverTrackColor": "0",
         "trackColor": "grey41"
       },
       "thumbColor": "blueaccent",
@@ -270,23 +273,24 @@
       "hoverThumbColor": "blueaccent",
       "hoverThumbBorderColor": "blueaccent",
       "trackColor": "grey41",
-      "hoverTrackColor": "grey153",
+      "hoverTrackColor": "grey80",
       "thumbShadow": "grey41",
+      "background": "grey41",
       "Mac": {
         "Transparent": {
           "thumbColor": "blueaccent",
           "thumbBorderColor": "blueaccent",
           "hoverThumbColor": "blueaccent",
           "hoverThumbBorderColor": "blueaccent",
-          "hoverTrackColor": "grey34",
+          "hoverTrackColor": "0",
           "trackColor": "grey34"
         },
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
         "hoverThumbColor": "blueaccent",
         "hoverThumbBorderColor": "blueaccent",
-        "trackColor": "grey34",
-        "hoverTrackColor": "grey34"
+        "trackColor": "blueaccent",
+        "hoverTrackColor": "0"
       }
     },
     "SearchEverywhere": {
@@ -300,7 +304,7 @@
       "SearchField": {
         "background": "grey80",
         "borderColor": "grey34",
-        "infoForeground": "white"
+        "infoForeground": "orange49"
       },
       "Advertiser": {
         "background": "grey36",
@@ -330,11 +334,19 @@
       "lightSelectionForeground": "white",
       "lightSelectionInactiveForeground": "white",
       "lightSelectionBackground": "grey80",
-      "lightSelectionInactiveBackground": "grey50"
+      "lightSelectionInactiveBackground": "grey50",
+      "selectionBackground": "blueaccent",
+      "selectionForeground": "yellowMac",
+      "highlightOuter": "blueaccent"
     },
     "TableHeader": {
       "cellBorder": "5,0,5,0",
       "background": "grey34"
+    },
+    "TextField": {
+      "selectionForeground": "yellowMac",
+      "selectionBackground": "blueaccent"
+
     },
     "ToggleButton": {
       "borderColor": "grey80",

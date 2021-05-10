@@ -77,6 +77,7 @@
         <option name="VISUAL_INDENT_GUIDE" value="808080" />
         <option name="WHITESPACES" value="ffffff" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="666666" />
+        <option name="SCROLL_BACKGROUND" value="F58231"/>
     </colors>
     <attributes>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
