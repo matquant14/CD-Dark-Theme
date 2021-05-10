@@ -2,6 +2,14 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.0.5
+- Corrected New Class SearchField color settings so that typing is now legible
+- Changed hightlighted text selection colors
+- Changed Component infoForeground color
+
+## Release 1.0.4
+- Fixed underline height
+
 ## Release 1.0.3
 - Updated and darkened ScrollBar Track Color 
 - Updated Search Everywhere header color
@@ -16,6 +24,8 @@
 ## Initial Release 1.0.0
 - Initial release with color settings
 ## [Unreleased]
+## [1.0.5]
+## [1.0.4]
 ## [1.0.3]
 ## [1.0.3]
 ## [1.0.2]
