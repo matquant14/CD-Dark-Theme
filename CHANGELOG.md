@@ -2,6 +2,10 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.0.6
+- Darkened background for tooltip window
+- Darkened search results highlighting
+
 ## Release 1.0.5
 - Corrected New Class SearchField color settings so that typing is now legible
 - Changed hightlighted text selection colors
