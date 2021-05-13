@@ -345,8 +345,11 @@
     },
     "TextField": {
       "selectionForeground": "yellowMac",
-      "selectionBackground": "blueaccent"
-
+      "selectionBackground": "black"
+    },
+    "TextArea": {
+      "selectionBackground": "black",
+      "selectionForeground": "yellowMac"
     },
     "ToggleButton": {
       "borderColor": "grey80",

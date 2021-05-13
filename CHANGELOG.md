@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.0.7
+- Changed TextArea selection foreground/background
+
 ## Release 1.0.6
 - Darkened background for tooltip window
 - Darkened search results highlighting
