@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.0.8
+- Changed File Colors
+
 ## Release 1.0.7
 - Changed TextArea selection foreground/background
 
