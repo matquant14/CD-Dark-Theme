@@ -34,6 +34,7 @@
 ## Initial Release 1.0.0
 - Initial release with color settings
 ## [Unreleased]
+## [1.0.8]
 ## [1.0.7]
 ## [1.0.6]
 ## [1.0.5]
