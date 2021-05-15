@@ -6,15 +6,16 @@
   "colors": {
     "black": "#000000",
     "blackgrey33": "#191d21ff",
-    "blue": "#002171ff",
+    "blue": "#0039cb",
     "blueaccent": "#3a76f4ff",
     "blue208": "#306cd0ff",
     "blueWinPalette": "#409AE1",
     "bluelight": "#78dce8",
     "bluelight2": "#70D7FF",
-    "green": "#014f01ff",
+    "darkgreen": "#014f01ff",
     "forestgreen": "#1B5E20",
     "brightgreen": "#09ab06",
+    "green": "#43E139",
     "greenMonokaiPro": "#a9dc76",
     "grey41": "#292929ff",
     "grey80": "#505050ff",
@@ -36,6 +37,8 @@
     "purpleWinPalette": "#b4a0ff",
     "purpleMonokaiPro": "#ab9df2",
     "transparentViolet": "#9478F67f",
+    "violet": "#b200ed",
+    "lightviolet": "#ED94FF",
     "red": "#fc0505",
     "red28": "#B71C1C",
     "redmac": "#fb3b45",
@@ -153,12 +156,12 @@
       "inactiveColoredFileBackground": "grey50"
     },
     "FileColor": {
-      "Yellow": "#7a5900",
-      "Green": "#003300",
+      "Yellow": "yellow",
+      "Green": "green",
       "Blue": "blue",
-      "Violet": "#1e153d",
-      "Orange": "#894500",
-      "Rose": "#7f0000"
+      "Violet": "violet",
+      "Orange": "orange9",
+      "Rose": "red"
     },
     "FormattedTextField": {
       "selectionBackground": "blueaccent",
@@ -202,8 +205,8 @@
       "MoreButton.innerBorderColor": "grey80",
       "ToolWindow": {
         "informativeForeground": "white",
-        "informativeBackground": "forestgreen",
-        "informativeBorderColor": "forestgreen",
+        "informativeBackground": "green",
+        "informativeBorderColor": "green",
         "warningForeground": "white",
         "warningBackground": "orange49",
         "warningBorderColor": "orange49",
