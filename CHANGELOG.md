@@ -2,8 +2,11 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.0
+- Changed Quesion Hint color
+
 ## Release 1.0.9
-- Change ToolWindow informative colors
+- Changed ToolWindow informative colors
 
 ## Release 1.0.8
 - Changed File Colors
