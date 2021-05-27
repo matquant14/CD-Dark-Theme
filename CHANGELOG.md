@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.1
+- Changed Checkbox and Radio button colors
+
 ## Release 1.1.0
 - Changed Quesion Hint color
 
@@ -40,6 +43,7 @@
 ## Initial Release 1.0.0
 - Initial release with color settings
 ## [Unreleased]
+## [1.1.1]
 ## [1.1.0]
 ## [1.0.9]
 ## [1.0.8]
