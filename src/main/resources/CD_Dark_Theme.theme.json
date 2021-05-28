@@ -277,7 +277,6 @@
     "RadioButton.selectionDisabledShadowColor": "blueaccent",
     "RadioButton.selectionEnabledColor": "blueaccent",
     "RadioButton.selectionEnabledShadowColor": "blueaccent",
-
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "blueaccent",
