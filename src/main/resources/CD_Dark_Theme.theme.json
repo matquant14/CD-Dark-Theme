@@ -1,8 +1,5 @@
 {
-  "name": "CD Dark Theme",
-  "dark": true,
   "author": "",
-  "editorScheme": "/CD_Dark_Theme.xml",
   "colors": {
     "black": "#000000",
     "blackgrey33": "#191d21ff",
@@ -18,7 +15,9 @@
     "green": "#43E139",
     "grey41": "#292929ff",
     "grey80": "#505050ff",
+    "grey6365": "#3C3F41",
     "grey50": "#323232ff",
+    "grey35": "#232323",
     "grey34": "#222222",
     "grey36": "#242424",
     "grey115": "#737373ff",
@@ -52,6 +51,9 @@
     "border": "#3c3c3c",
     "panelText": "#a6a6a6"
   },
+  "dark": true,
+  "editorScheme": "/CD_Dark_Theme.xml",
+  "name": "CD Dark Theme",
   "ui": {
     "*": {
       "underlineHeight": 1
@@ -80,37 +82,35 @@
     "Button": {
       "startBackground": "grey80",
       "endBackground": "grey80",
-      "startBorderColor": "blueaccent",
-      "endBorderColor": "blueaccent",
+      "startBorderColor": "grey80",
+      "endBorderColor": "grey80",
+      "disabledText": "white",
+      "focusedBorderColor": "grey80",
       "default": {
         "foreground": "white",
         "startBackground": "grey80",
         "endBackground": "grey80",
-        "startBorderColor": "blueaccent",
-        "endBorderColor": "blueaccent",
-        "focusedBorderColor": "blueaccent"
+        "startBorderColor": "grey80",
+        "endBorderColor": "grey80",
+        "focusedBorderColor": "grey80",
+        "focusColor": "grey80"
       }
     },
     "CheckBox.select": "blueaccent",
-    "CheckBox.foreground": "blueaccent",
-    "CheckBox.inactiveFillColor": "blueaccent",
-    "Checkbox.Focus.Thin.Default": "blueaccent",
-    "Checkbox.Focus.Thin.Default.Dark": "blueaccent",
-    "Checkbox.Focus.Wide": "blueaccent",
-    "Checkbox.Focus.Wide.Dark": "blueaccent",
-    "Checkbox.Background.Selected": "blueaccent",
-    "Checkbox.Border.Selected": "blueaccent",
-    "Checkbox.Border.Selected.Dark": "blueaccent",
-    "Checkbox.Foreground.Selected": "blueaccent",
-    "Checkbox.Foreground.Selected.Dark": "blueaccent",
+    "CheckBox.foreground": "white",
+    "CheckBoxMenuItem.foreground": "white",
+    "CheckBoxMenuItem.disabledForeground": "white",
+    "CheckBoxMenuItem.selectionForeground": "yellowMac",
     "ComboBox": {
-      "nonEditableBackground": "grey34",
-      "modifiedItemForeground": "blueaccent",
       "ArrowButton": {
         "iconColor": "white",
         "disabledIconColor": "grey153",
         "nonEditableBackground": "grey34"
-      }
+      },
+      "foreground": "yellowMac",
+      "background": "black",
+      "modifiedItemForeground": "white",
+      "nonEditableBackground": "grey34"
     },
     "ComboPopup.border": "1,1,1,1,grey50",
     "CompletionPopup.matchForeground": "orange10",
@@ -175,6 +175,12 @@
       "selectionBackground": "blueaccent",
       "selectionForeground": "yellowMac"
     },
+    "Label": {
+      "background": "grey34",
+      "foreground": "white",
+      "infoForeground": "yellowMac",
+      "selectedForeground": "white"
+    },
     "Link": {
       "activeForeground": "blueaccent",
       "hoverForeground": "blueaccent",
@@ -199,17 +205,22 @@
     "List": {
       "background": "grey50",
       "dropLineColor": "white",
-      "foreground": "white",
+      "foreground": "yellowMac",
       "selectionBackground": "grey115",
       "selectionForeground": "yellow",
       "selectionInactiveBackground": "grey80"
     },
+    "Menu": {
+      "foreground": "white",
+      "selectionForeground": "white",
+      "disabledForeground": "grey153"
+    },
+    "MenuItem": {
+      "foreground": "white",
+      "disabledForeground": "grey153"
+    },
     "NavBar.borderColor": "whiteoff",
     "Notification": {
-      "background": "grey37",
-      "errorForeground": "blueaccent",
-      "errorBackground": "#800002",
-      "errorBorderColor": "#593D41",
       "MoreButton.innerBorderColor": "grey80",
       "ToolWindow": {
         "informativeForeground": "yellowMac",
@@ -221,7 +232,11 @@
         "errorForeground": "white",
         "errorBackground": "red28",
         "errorBorderColor": "red28"
-      }
+      },
+      "background": "grey37",
+      "errorBackground": "red",
+      "errorBorderColor": "#593D41",
+      "errorForeground": "white"
     },
     "ParameterInfo": {
       "background": "grey50",
@@ -238,7 +253,7 @@
       "SearchField.borderColor": "grey80",
       "SectionHeader.background": "grey50",
       "tagBackground": "orange10",
-      "tagForeground": "blueaccent",
+      "tagForeground": "white",
       "Button": {
         "installForeground": "grey153",
         "installBorderColor": "grey80",
@@ -277,7 +292,9 @@
     "RadioButton.selectionDisabledShadowColor": "blueaccent",
     "RadioButton.selectionEnabledColor": "blueaccent",
     "RadioButton.selectionEnabledShadowColor": "blueaccent",
+    "RadioButton.foreground": "white",
     "ScrollBar": {
+      "width": 6,
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
@@ -355,15 +372,20 @@
       "lightSelectionInactiveBackground": "grey50",
       "selectionBackground": "blueaccent",
       "selectionForeground": "yellowMac",
-      "highlightOuter": "blueaccent"
+      "highlightOuter": "blueaccent",
+      "foreground": "white"
     },
     "TableHeader": {
       "cellBorder": "5,0,5,0",
-      "background": "grey34"
+      "background": "grey34",
+      "foreground": "yellowMac"
     },
     "TextField": {
       "selectionForeground": "yellowMac",
-      "selectionBackground": "black"
+      "selectionBackground": "black",
+      "foreground": "white",
+      "inactiveForeground": "orange49",
+      "background": "grey6365"
     },
     "TextArea": {
       "selectionBackground": "black",
@@ -375,13 +397,19 @@
       "offBackground": "grey80",
       "offForeground": "white",
       "onBackground": "blueaccent",
-      "onForeground": "blueaccent"
+      "onForeground": "white"
     },
     "ToolTip": {
       "background": "grey41",
-      "Actions.background": "grey41"
+      "Actions.background": "grey41",
+      "Actions.infoForeground": "white"
     },
     "ToolWindow": {
+      "Button": {
+        "hoverBackground": "grey117",
+        "selectedBackground": "grey80",
+        "selectedForeground": "white"
+      },
       "Header": {
         "background": "grey80",
         "inactiveBackground": "grey41"
@@ -392,11 +420,6 @@
         "hoverInactiveBackground": "orange10",
         "underlineColor": "orange49",
         "inactiveUnderlineColor": "blueaccent"
-      },
-      "Button": {
-        "hoverBackground": "grey117",
-        "selectedBackground": "grey80",
-        "selectedForeground": "white"
       }
     },
     "Tree": {
@@ -404,10 +427,12 @@
       "hoverBackground": "grey117",
       "hoverInactiveBackground": "grey41",
       "foreground": "white",
+      "background": "grey6365",
       "selectionBackground": "grey115",
       "selectionForeground": "white",
       "selectionInactiveBackground": "grey115"
     },
+    "SidePanel.background": "grey41",
     "ValidationTooltip": {
       "errorBackground": "grey37",
       "errorBorderColor": "grey37",
