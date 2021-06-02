@@ -86,6 +86,7 @@
       "endBorderColor": "grey80",
       "disabledText": "white",
       "focusedBorderColor": "grey80",
+      "foreground": "white",
       "default": {
         "foreground": "white",
         "startBackground": "grey80",
@@ -294,7 +295,7 @@
     "RadioButton.selectionEnabledShadowColor": "blueaccent",
     "RadioButton.foreground": "white",
     "ScrollBar": {
-      "width": 6,
+      "width": 2,
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
@@ -421,6 +422,9 @@
         "underlineColor": "orange49",
         "inactiveUnderlineColor": "blueaccent"
       }
+    },
+    "TitlePane": {
+      "inactiveInfoForeground": "orange49"
     },
     "Tree": {
       "modifiedItemForeground": "orange10",
