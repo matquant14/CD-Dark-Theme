@@ -2,6 +2,11 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.2
+- Changed side panel color 
+- Changed checkbox foreground
+- Changed combobox colors
+
 ## Release 1.1.1
 - Changed Checkbox and Radio button colors
 
@@ -43,6 +48,7 @@
 ## Initial Release 1.0.0
 - Initial release with color settings
 ## [Unreleased]
+## [1.1.2]
 ## [1.1.1]
 ## [1.1.0]
 ## [1.0.9]
