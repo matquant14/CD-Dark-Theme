@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.3
+- Decreased scrollbar width
+
 ## Release 1.1.2
 - Changed side panel color 
 - Changed checkbox foreground
