@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.5
+-- Update compatibility
+
 ## Release 1.1.4
 -- Update compatibility
 
@@ -54,6 +57,8 @@
 ## Initial Release 1.0.0
 - Initial release with color settings
 ## [Unreleased]
+## [1.1.5]
+## [1.1.4]
 ## [1.1.4]
 ## [1.1.3]
 ## [1.1.2]
