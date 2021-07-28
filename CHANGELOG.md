@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.4
+-- Update compatibility
+
 ## Release 1.1.3
 - Decreased scrollbar width
 
