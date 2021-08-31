@@ -29,7 +29,7 @@ repositories {
     maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
 }
 dependencies {
-    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.16.0")
+    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.18.1")
 }
 
 // Configure gradle-intellij-plugin plugin.
