@@ -49,7 +49,8 @@
     "panelbackground": "#333333",
     "textcolor": "#f9f6ef",
     "border": "#3c3c3c",
-    "panelText": "#a6a6a6"
+    "panelText": "#a6a6a6",
+    "todo": "#ff3f72"
   },
   "dark": true,
   "editorScheme": "/CD_Dark_Theme.xml",
@@ -254,16 +255,17 @@
       "SearchField.borderColor": "grey80",
       "SectionHeader.background": "grey50",
       "tagBackground": "orange10",
-      "tagForeground": "white",
+      "tagForeground": "grey153",
       "Button": {
-        "installForeground": "grey153",
+        "installForeground": "todo",
         "installBorderColor": "grey80",
-        "installFillForeground": "white",
+        "installFillForeground": "grey153",
         "installFillBackground": "grey80",
         "updateForeground": "white",
         "updateBackground": "blueaccent"
       },
-      "lightSelectionBackground": "grey115"
+      "lightSelectionBackground": "grey115",
+      "disabledForeground": "grey153"
     },
     "Popup": {
       "inactiveBorderColor": "grey34",
