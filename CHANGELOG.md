@@ -2,18 +2,21 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.6
+- Update compatibility to include EAPs
+
 ## Release 1.1.5
--- Update compatibility
+- Update compatibility
 
 ## Release 1.1.4
--- Update compatibility
+- Update compatibility
 
 ## Release 1.1.3
 - Decreased scrollbar width
 
 ## Release 1.1.2
-- Changed side panel color 
-- Changed checkbox foreground
+- Changed side panel color  <br/>
+- Changed checkbox foreground  <br/>
 - Changed combobox colors
 
 ## Release 1.1.1
@@ -32,20 +35,20 @@
 - Changed TextArea selection foreground/background
 
 ## Release 1.0.6
-- Darkened background for tooltip window
-- Darkened search results highlighting
+- Darkened background for tooltip window  <br/>
+- Darkened search results highlighting  
 
 ## Release 1.0.5
-- Corrected New Class SearchField color settings so that typing is now legible
-- Changed hightlighted text selection colors
-- Changed Component infoForeground color
+- Corrected New Class SearchField color settings so that typing is now legible  <br/>
+- Changed hightlighted text selection colors  <br/>
+- Changed Component infoForeground color  <br/>
 
 ## Release 1.0.4
 - Fixed underline height
 
 ## Release 1.0.3
-- Updated and darkened ScrollBar Track Color 
-- Updated Search Everywhere header color
+- Updated and darkened ScrollBar Track Color   <br/>
+- Updated Search Everywhere header color  <br/>
 - Updated and darkened Search Everywhere search field background color
 
 ## Release 1.0.2
