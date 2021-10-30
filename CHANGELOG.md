@@ -2,6 +2,13 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.8
+-Update plugin button colors
+
+## Release 1.1.7
+- Update compatibility <br/>
+- Chnage TODO foreground
+
 ## Release 1.1.6
 - Update compatibility to include EAPs
 
