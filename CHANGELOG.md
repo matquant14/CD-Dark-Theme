@@ -7,7 +7,7 @@
 
 ## Release 1.1.7
 - Update compatibility <br/>
-- Chnage TODO foreground
+- Change TODO foreground
 
 ## Release 1.1.6
 - Update compatibility to include EAPs
@@ -30,7 +30,7 @@
 - Changed Checkbox and Radio button colors
 
 ## Release 1.1.0
-- Changed Quesion Hint color
+- Changed Question Hint color
 
 ## Release 1.0.9
 - Changed ToolWindow informative colors
@@ -47,7 +47,7 @@
 
 ## Release 1.0.5
 - Corrected New Class SearchField color settings so that typing is now legible  <br/>
-- Changed hightlighted text selection colors  <br/>
+- Changed highlighted text selection colors  <br/>
 - Changed Component infoForeground color  <br/>
 
 ## Release 1.0.4
