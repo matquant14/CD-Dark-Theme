@@ -2,6 +2,9 @@
 
 # CD-Dark-Theme Changelog
 
+## Release 1.1.9
+-Update compatibility
+
 ## Release 1.1.8
 -Update plugin button colors
 
