@@ -1,12 +1,14 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 # CD-Dark-Theme Changelog
+## Release 1.2.0
+- Update compatibility
 
 ## Release 1.1.9
--Update compatibility
+- Update compatibility
 
 ## Release 1.1.8
--Update plugin button colors
+- Update plugin button colors
 
 ## Release 1.1.7
 - Update compatibility <br/>
