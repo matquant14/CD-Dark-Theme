@@ -1,6 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 # CD-Dark-Theme Changelog
+## Release 1.2.1
+- Fix error on startup
+
 ## Release 1.2.0
 - Update compatibility
 
