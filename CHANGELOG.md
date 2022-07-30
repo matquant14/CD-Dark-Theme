@@ -1,6 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 # CD-Dark-Theme Changelog
+## Release 1.2.2
+- Swap Install Button Foreground Colors
+
 ## Release 1.2.1
 - Fix error on startup
 
