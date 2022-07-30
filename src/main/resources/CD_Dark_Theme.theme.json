@@ -257,12 +257,14 @@
       "tagBackground": "orange10",
       "tagForeground": "grey153",
       "Button": {
-        "installForeground": "todo",
+        "installBackground": "grey80",
         "installBorderColor": "grey80",
+        "installForeground": "white",
         "installFillForeground": "grey153",
         "installFillBackground": "grey80",
-        "updateForeground": "white",
-        "updateBackground": "blueaccent"
+        "updateForeground": "todo",
+        "updateBackground": "grey50",
+        "updateBorderColor": "grey80"
       },
       "lightSelectionBackground": "grey115",
       "disabledForeground": "grey153"
