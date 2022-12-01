@@ -1,7 +1,8 @@
-// import io.gitlab.arturbosch.detekt.Detekt
 // import org.jetbrains.changelog.closure
+import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+// import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 fun properties(key: String) = project.findProperty(key).toString()
 
@@ -9,15 +10,15 @@ plugins {
     // Java support
     id("java")
     // Kotlin support
-    id("org.jetbrains.kotlin.jvm") version "1.6.10"
+    id("org.jetbrains.kotlin.jvm") version "1.7.21"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.4.0"
+    id("org.jetbrains.intellij") version "1.10.0"
     // Gradle Changelog Plugin
-    id("org.jetbrains.changelog") version "1.3.1"
+    id("org.jetbrains.changelog") version "2.0.0"
     // Gradle Qodana Plugin
     id("org.jetbrains.qodana") version "0.1.13"
-    // ktlint linter - read more: https://github.com/JLLeitschuh/ktlint-gradle
-    id("org.jlleitschuh.gradle.ktlint") version "10.3.0"
+    // Gradle Kover Plugin
+    id("org.jetbrains.kotlinx.kover") version "0.6.1"
 }
 
 group = properties("pluginGroup")
@@ -28,7 +29,10 @@ repositories {
     mavenCentral()
     // maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
 }
-
+// Set the JVM language level used to build project. Use Java 11 for 2020.3+, and Java 17 for 2022.2+.
+kotlin {
+    jvmToolchain(17)
+}
 // Configure gradle-intellij-plugin plugin.
 // Read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
@@ -56,18 +60,20 @@ qodana {
     saveReport.set(true)
     showReport.set(System.getenv("QODANA_SHOW_REPORT").toBoolean())
 }
-
+kover.xmlReport {
+    onCheck.set(true)
+}
 tasks {
     // Set the JVM compatibility versions
-    properties("javaVersion").let {
-        withType<JavaCompile> {
-            sourceCompatibility = it
-            targetCompatibility = it
-        }
-        withType<KotlinCompile> {
-            kotlinOptions.jvmTarget = it
-        }
-    }
+//    properties("javaVersion").let {
+//        withType<JavaCompile> {
+//            sourceCompatibility = it
+//            targetCompatibility = it
+//        }
+//        withType<KotlinCompile> {
+//            kotlinOptions.jvmTarget = it
+//        }
+//    }
 
     wrapper {
         gradleVersion = properties("gradleVersion")
@@ -93,17 +99,21 @@ tasks {
 
         // Get the latest available change notes from the changelog file
         changeNotes.set(
-            provider
-            {
-                changelog.run {
-                    getOrNull(properties("pluginVersion")) ?: getLatest()
-                }.toHTML()
+            provider {
+                with(changelog) {
+                    renderItem(
+                        getOrNull(properties("pluginVersion")) ?: getLatest(),
+                        Changelog.OutputType.HTML
+                    )
+                }
             }
         )
     }
 
     runPluginVerifier {
-        ideVersions.set(properties("pluginVerifierIdeVersions").split(',').map(String::trim).filter(String::isNotEmpty))
+        ideVersions.set(
+            properties("pluginVerifierIdeVersions").split(',').map(String::trim).filter(String::isNotEmpty)
+        )
     }
 
     // Configure UI tests plugin
