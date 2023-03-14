@@ -5,14 +5,15 @@ import org.jetbrains.changelog.markdownToHTML
 // import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 fun properties(key: String) = project.findProperty(key).toString()
+fun environment(key: String) = providers.environmentVariable(key)
 
 plugins {
     // Java support
     id("java")
     // Kotlin support
-    id("org.jetbrains.kotlin.jvm") version "1.8.0"
+    id("org.jetbrains.kotlin.jvm") version "1.8.10"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.12.0"
+    id("org.jetbrains.intellij") version "1.13.2"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "2.0.0"
     // Gradle Qodana Plugin
@@ -27,7 +28,6 @@ version = properties("pluginVersion")
 // Configure project's dependencies
 repositories {
     mavenCentral()
-    // maven("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven")
 }
 // Set the JVM language level used to build project. Use Java 11 for 2020.3+, and Java 17 for 2022.2+.
 kotlin {
@@ -48,9 +48,13 @@ intellij {
 
 // Configure gradle-changelog-plugin plugin.
 // Read more: https://github.com/JetBrains/gradle-changelog-plugin
+//changelog {
+//    version.set(properties("pluginVersion"))
+//    groups.set(emptyList())
+//}
 changelog {
-    version.set(properties("pluginVersion"))
-    groups.set(emptyList())
+    groups.empty()
+    repositoryUrl.set(properties("pluginRepositoryUrl"))
 }
 
 // Configure Gradle Qodana Plugin - read more: https://github.com/JetBrains/gradle-qodana-plugin
@@ -64,16 +68,6 @@ kover.xmlReport {
     onCheck.set(true)
 }
 tasks {
-    // Set the JVM compatibility versions
-//    properties("javaVersion").let {
-//        withType<JavaCompile> {
-//            sourceCompatibility = it
-//            targetCompatibility = it
-//        }
-//        withType<KotlinCompile> {
-//            kotlinOptions.jvmTarget = it
-//        }
-//    }
 
     wrapper {
         gradleVersion = properties("gradleVersion")
@@ -109,7 +103,37 @@ tasks {
             }
         )
     }
-
+//    patchPluginXml {
+//        version.set(properties("pluginVersion"))
+//        sinceBuild.set(properties("pluginSinceBuild"))
+//        untilBuild.set(properties("pluginUntilBuild"))
+//
+//        // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest
+//        pluginDescription.set(providers.fileContents(layout.projectDirectory.file("README.md")).asText.map {
+//            val start = "<!-- Plugin description -->"
+//            val end = "<!-- Plugin description end -->"
+//
+//            with(it.lines()) {
+//                if (!containsAll(listOf(start, end))) {
+//                    throw GradleException("Plugin description section not found in README.md:\n$start ... $end")
+//                }
+//                subList(indexOf(start) + 1, indexOf(end)).joinToString("\n").let(::markdownToHTML)
+//            }
+//        })
+//
+//        val changelog = project.changelog // local variable for configuration cache compatibility
+//        // Get the latest available change notes from the changelog file
+//        changeNotes.set(properties("pluginVersion").map { pluginVersion ->
+//            with(changelog) {
+//                renderItem(
+//                    (getOrNull(pluginVersion) ?: getUnreleased())
+//                        .withHeader(false)
+//                        .withEmptySections(false),
+//                    Changelog.OutputType.HTML,
+//                )
+//            }
+//        })
+//    }
     runPluginVerifier {
         ideVersions.set(
             properties("pluginVerifierIdeVersions").split(',').map(String::trim).filter(String::isNotEmpty)
