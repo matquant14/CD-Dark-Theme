@@ -3,8 +3,14 @@
     <name>CD-Dark-Theme</name>
     <vendor>matquant14</vendor>
 
-    <change-notes>Initial release of the plugin.</change-notes>
-    <version>1.0.0</version>
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>0.1</b> Updated Compatibility.</li>
+      </ul>
+    ]]>
+    </change-notes>
+    <version>latest</version>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -14,6 +20,8 @@
         <applicationService serviceImplementation="com.github.matquant14.cddarktheme.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.matquant14.cddarktheme.services.MyProjectService"/>
         <themeProvider id="75e8d581-d3af-4c41-a9b1-9d7f52f181e5" path="/CD_Dark_Theme.theme.json"/>
+        <registryKey key = "ide.experimental.ui.tree.selection" defaultValue = "false" restartRequired = "false"
+                     description = "New UI Compatibility (CD-Dark-Theme, IDE default: true)"/>
     </extensions>
 
     <applicationListeners>
