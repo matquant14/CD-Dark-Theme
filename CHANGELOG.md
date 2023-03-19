@@ -2,7 +2,8 @@
 
 # CD-Dark-Theme Changelog
 
-## Unreleased
+## Release 1.2.5
+- Update compatibility for 2023.* release
 
 ## Release 1.2.4
 - Update additional compatibility
