@@ -967,7 +967,7 @@
         </option>
         <option name = "org.rust.MACRO">
             <value>
-                <option name = "FOREGROUND" value = "66ffa6"/>
+                <option name = "FOREGROUND" value = "13B9FF"/>
             </value>
         </option>
         <option name = "org.rust.METHOD_CALL">
