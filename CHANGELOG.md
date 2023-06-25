@@ -2,10 +2,11 @@
 
 # CD-Dark-Theme Changelog
 
-## [Unreleased]
+## Release [1.2.8]
+- Add Code Style schemes for Python, SQL, and Rust languages
 
 ## Release [1.2.7]
---Revert Rust Macro Color to mimic function color
+- Revert Rust Macro Color to mimic function color
 
 ## Release [1.2.6]
 - Add Rust Editor Colors
@@ -37,7 +38,8 @@
 ## Release [1.1.7]
 - Update compatibility <br/>
 
-
+
+
 - Change TODO foreground
 
 ## Release [1.1.6]
@@ -55,10 +57,12 @@
 ## Release [1.1.2]
 - Changed side panel color  <br/>
 
-
+
+
 - Changed checkbox foreground  <br/>
 
-
+
+
 - Changed combobox colors
 
 ## Release [1.1.1]
@@ -79,16 +83,19 @@
 ## Release [1.0.6]
 - Darkened background for tooltip window  <br/>
 
-
+
+
 - Darkened search results highlighting
 
 ## Release [1.0.5]
 - Corrected New Class SearchField color settings so that typing is now legible  <br/>
 
-
+
+
 - Changed highlighted text selection colors  <br/>
 
-
+
+
 - Changed Component infoForeground color  <br/>
 
 ## Release [1.0.4]
@@ -97,10 +104,12 @@
 ## Release [1.0.3]
 - Updated and darkened ScrollBar Track Color   <br/>
 
-
+
+
 - Updated Search Everywhere header color  <br/>
 
-
+
+
 - Updated and darkened Search Everywhere search field background color
 
 ## Release [1.0.2]
