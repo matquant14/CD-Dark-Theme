@@ -13,8 +13,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.matquant14.cddarktheme.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.matquant14.cddarktheme.services.MyProjectService"/>
-<!--        <fileCodeStyleProvider implementation="com.github.matquant14.cddarktheme.codestyle.CDDarkCodeStyle"/>-->
-        <fileCodeStyleProvider implementation="com.github.matquant14.cddarktheme.codestyle.CDDarkCodeStyle"/>
         <themeProvider id="75e8d581-d3af-4c41-a9b1-9d7f52f181e5" path="/CD_Dark_Theme.theme.json"/>
     </extensions>
 
