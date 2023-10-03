@@ -1,6 +1,6 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
-
 # CD-Dark-Theme Changelog
+## Release [1.2.9]
+- Update compatibility for 2023.3 release
 
 ## Release [1.2.8]
 - Add Code Style schemes for Python, SQL, and Rust languages
