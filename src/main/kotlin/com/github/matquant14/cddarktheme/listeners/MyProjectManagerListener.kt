@@ -7,6 +7,7 @@ import com.intellij.openapi.project.ProjectManagerListener
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
+    @Deprecated("Deprecated in Java")
     override fun projectOpened(project: Project) {
         project.service<MyProjectService>()
     }
