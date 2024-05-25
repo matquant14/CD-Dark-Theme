@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.2.11]
+- Update compatibility for 2024.2 EAP/release
+
 ## Release [1.2.10]
 - Update compatibility for 2024.1 EAP/release
 
@@ -123,6 +126,8 @@
 
 ## Initial Release [1.0.0]
 - Initial release with color settings
+
+## Unreleased
 
 [Unreleased]: https://github.com/matquant14/CD-Dark-Theme/compare/v1.2.6...HEAD
 
