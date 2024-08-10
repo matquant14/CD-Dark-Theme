@@ -12,23 +12,30 @@ import org.jetbrains.annotations.NotNull
 import com.intellij.psi.impl.source.codeStyle.CodeStyleSchemeImpl
 import java.io.InputStream
 import javax.xml.parsers.DocumentBuilderFactory
+import com.intellij.openapi.util.JDOMUtil
+import org.jdom.Element
+import java.net.URL
 
-class CDDarkCodeStyle : FileCodeStyleProvider {
+fun loadXMLSettings(resourceURL:URL): Element {
+    try {
+        val document = JDOMUtil.load(resourceURL)
+        return document.get
+    }
+}
 
+
+class CDDarkCodeStyle : CodeStyleScheme {
+    private val settings: CodeStyleSettings
+
+    init {
+        val element =
+    }
+
+    }
     override fun getSettings(@NotNull file: PsiFile): CodeStyleSettings? {
         val stream = javaClass.classLoader.getResourceAsStream("resources/CDDarkCodestyle.xml")
         val myScheme = stream?.let { createSchemeFromStream(it, "CDDarkCodeStyle") }
         return myScheme as? CodeStyleSettings
     }
 
-    private fun createSchemeFromStream(inputStream: InputStream, schemeName: String): CodeStyleScheme {
-        val builder = DocumentBuilderFactory.newInstance().newDocumentBuilder()
-        val document = builder.parse(inputStream)
-
-        val settings = CodeStyleSettingsManager.getInstance().createSettings()
-
-        return CodeStyleSchemeImpl(schemeName, false, null).apply {
-            codeStyleSettings = settings
-        }
-    }
 }
