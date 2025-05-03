@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.2.14]
+- Update compatibility for 2025.2 EAP/release
+
 ### Release [1.2.13]
 - Update compatibility for 2025.1 EAP/release
 
