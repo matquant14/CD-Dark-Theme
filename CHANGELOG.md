@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.2.18]
+- Remove support for 2022.* releases
+
 ### Release [1.2.17]
 - Remove depreceated API usage
 - Fix compatibility for 2023.* releases
