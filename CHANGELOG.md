@@ -1,4 +1,8 @@
 # CD-Dark-Theme Changelog
+### Release [1.2.17]
+- Remove depreceated API usage
+- Fix compatibility for 2023.* releases
+
 ### Release [1.2.16]
 - Update compatibility for 2025.3 EAP/release
 
