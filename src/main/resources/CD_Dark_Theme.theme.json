@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Andrew Jacobs",
   "colors": {
     "black": "#000000",
     "blackgrey33": "#191d21ff",
@@ -57,7 +57,9 @@
   "name": "CD Dark Theme",
   "ui": {
     "*": {
-      "underlineHeight": 1
+      "underlineHeight": 1,
+      "ScrollBar.thumb.arc": 10,
+      "Component.arc": 8
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
