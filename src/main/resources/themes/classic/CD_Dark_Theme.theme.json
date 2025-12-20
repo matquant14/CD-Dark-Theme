@@ -53,7 +53,7 @@
     "todo": "#ff3f72"
   },
   "dark": true,
-  "editorScheme": "/CD_Dark_Theme.xml",
+  "editorScheme": "/themes/classic/CD_Dark_Theme.xml",
   "name": "CD Dark Theme",
   "ui": {
     "*": {
@@ -302,6 +302,7 @@
     "RadioButton.foreground": "white",
     "ScrollBar": {
       "width": 2,
+      "UI": "com.github.matquant14.cddarktheme.scroll.CDDarkScrollBar",
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
