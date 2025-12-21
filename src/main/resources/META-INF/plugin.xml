@@ -13,7 +13,6 @@
     <extensions defaultExtensionNs = "com.intellij">
         <themeProvider id = "75e8d581-d3af-4c41-a9b1-9d7f52f181e5" path = "/themes/classic/CD_Dark_Theme.theme.json"/>
         <themeProvider id = "com.github.matquant14.cddarktheme.cd-dark-islands" path = "/themes/islands/CD_Dark_Islands.theme.json"/>
-        <postStartupActivity implementation = "com.github.matquant14.cddarktheme.startup.StartupActivity"/>
     </extensions>
 
 </idea-plugin>
