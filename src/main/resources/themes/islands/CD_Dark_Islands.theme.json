@@ -5,6 +5,7 @@
     "blackgrey33": "#191d21ff",
     "blue": "#0039cb",
     "blueaccent": "#3a76f4ff",
+    "blue55": "#375fadff",
     "blue208": "#306cd0ff",
     "blueWinPalette": "#409AE1",
     "bluelight": "#78dce8",
@@ -13,6 +14,7 @@
     "forestgreen": "#1B5E20",
     "brightgreen": "#09ab06",
     "green": "#43E139",
+    "grey252628": "#191A1Cff",
     "grey41": "#292929ff",
     "grey80": "#505050ff",
     "grey6365": "#3C3F41",
@@ -55,12 +57,11 @@
   "dark": true,
   "editorScheme": "/themes/islands/CD_Dark_Islands.xml",
   "name": "CD Dark Islands Theme",
-  "parentTheme": "Islands Dark",
   "ui": {
     "*": {
-      "underlineHeight": 1,
+      "Component.arc": 8,
       "ScrollBar.thumb.arc": 10,
-      "Component.arc": 8
+      "underlineHeight": 1
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
