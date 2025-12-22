@@ -11,6 +11,7 @@
     "bluelight": "#78dce8",
     "bluelight2": "#70D7FF",
     "border": "#3c3c3c",
+    "border2": "#CCCCCC",
     "brightgreen": "#09ab06",
     "consolebackground": "#191919",
     "darkgreen": "#014f01ff",
@@ -45,14 +46,14 @@
     "redmac": "#fb3b45",
     "redmonokaipro": "#ff6188",
     "textcolor": "#f9f6ef",
-    "todo": "#ff3f72"
+    "todo": "#ff3f72",
     "transparentViolet": "#9478F67f",
     "violet": "#b200ed",
     "white": "#ffffffff",
     "whiteoff": "#E6E6E6",
     "yellow": "#ffb62c",
     "yellowMac": "#faaa1f",
-    "yellowWinPalette": "#ffc83d",
+    "yellowWinPalette": "#ffc83d"
   },
   "dark": true,
   "editorScheme": "/themes/islands/CD_Dark_Islands.xml",
@@ -61,9 +62,7 @@
     "*": {
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "underlineHeight": 1,
-      "forground": "white",
-      "sepearatorColor": "grey34"
+      "underlineHeight": 1
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
@@ -208,6 +207,12 @@
       "pressedForeground": "blueaccent",
       "visitedForeground": "blueaccent",
       "secondaryForeground": "blueaccent"
+    },
+    "MainWindow": {
+      "Tab": {
+        "separatorColor": "border2",
+        "borderColor": "grey41"
+      }
     },
     "MemoryIndicator": {
       "usedBackground": "orange10",
