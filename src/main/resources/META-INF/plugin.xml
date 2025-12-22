@@ -1,4 +1,4 @@
-<idea-plugin url = "https://github.com/matquant14/CD-Dark-Theme">
+<idea-plugin url = "https://github.com/matquant14/CD-Dark-Theme" require-restart="false">
     <id>com.github.matquant14.cddarktheme</id>
     <name>CD-Dark-Theme</name>
     <vendor>matquant14</vendor>
