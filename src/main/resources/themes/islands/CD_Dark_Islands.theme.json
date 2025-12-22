@@ -5,7 +5,7 @@
     "blackgrey33": "#191d21ff",
     "blue": "#0039cb",
     "blue208": "#306cd0ff",
-    "blue55": "#375fadff",
+    "blue55_95_173": "#375fadff",
     "blueWinPalette": "#409AE1",
     "blueaccent": "#3a76f4ff",
     "bluelight": "#78dce8",
@@ -20,7 +20,7 @@
     "green": "#43E139",
     "grey115": "#737373ff",
     "grey117": "#757575ff",
-    "grey153": "#999999ff",
+    "grey153": "#ffc9c9ff",
     "grey252628": "#191A1Cff",
     "grey34": "#222222",
     "grey35": "#232323",
@@ -29,7 +29,7 @@
     "grey41": "#292929ff",
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
-    "grey6365": "#3C3F41",
+    "grey60_63_65": "#3C3F41",
     "grey80": "#505050ff",
     "greyWinPalette": "#b2b2b2",
     "greyblue97": "#565d61ff",
@@ -89,7 +89,7 @@
       "startBackground": "grey80",
       "endBackground": "grey80",
       "startBorderColor": "grey80",
-      "endBorderColor": "grey80",
+      "endBorderColor": "blue55_95_173",
       "disabledText": "white",
       "focusedBorderColor": "grey80",
       "foreground": "white",
@@ -237,8 +237,7 @@
       "selectionInactiveBackground": "grey80"
     },
     "MainToolbar": {
-      "background": "grey6365",
-      "borderColor": "grey34"
+      "background": "grey60_63_65"
     },
     "Menu": {
       "foreground": "white",
@@ -418,7 +417,7 @@
       "selectionBackground": "black",
       "foreground": "white",
       "inactiveForeground": "orange49",
-      "background": "grey6365"
+      "background": "grey60_63_65"
     },
     "TextArea": {
       "selectionBackground": "black",
@@ -463,7 +462,7 @@
       "hoverBackground": "grey117",
       "hoverInactiveBackground": "grey41",
       "foreground": "white",
-      "background": "grey6365",
+      "background": "grey60_63_65",
       "selectionBackground": "grey115",
       "selectionForeground": "white",
       "selectionInactiveBackground": "grey115"
