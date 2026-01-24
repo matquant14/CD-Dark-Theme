@@ -302,7 +302,6 @@
     "RadioButton.foreground": "white",
     "ScrollBar": {
       "width": 2,
-      "UI": "com.github.matquant14.cddarktheme.scroll.CDDarkScrollBar",
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
