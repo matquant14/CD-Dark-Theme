@@ -10,7 +10,7 @@
     "blueaccent": "#3a76f4ff",
     "bluelight": "#78dce8",
     "bluelight2": "#70D7FF",
-    "border": "#3c3c3c",
+    "border": "#232323",
     "border2": "#CCCCCC",
     "brightgreen": "#09ab06",
     "consolebackground": "#191919",
@@ -20,9 +20,10 @@
     "green": "#43E139",
     "grey115": "#737373ff",
     "grey117": "#757575ff",
-    "grey153": "#ffc9c9ff",
-    "grey252628": "#191A1Cff",
-    "grey34": "#222222",
+    "grey153": "#545454ff",
+    "grey252628": "#232323ff",
+    "grey34": "#191a1c",
+    "grey34_transparent": "#22222200",
     "grey35": "#232323",
     "grey36": "#242424",
     "grey37": "#252525ff",
@@ -30,6 +31,7 @@
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
     "grey60_63_65": "#3C3F41",
+    "grey60_63_65_transparent": "#3C3F4100",
     "grey80": "#505050ff",
     "greyWinPalette": "#b2b2b2",
     "greyblue97": "#565d61ff",
@@ -68,18 +70,25 @@
       "hoverBackground": "blueaccent",
       "pressedBackground": "blueaccent"
     },
-    "AssignedMnemonic": {
-      "foreground": "white",
-      "background": "orange10",
-      "borderColor": "blackgrey33"
-    },
-    "AvailableMnemonic": {
-      "background": "grey80",
-      "borderColor": "grey80",
-      "foreground": "white"
-    },
-    "BookmarkIcon": {
-      "background": "orange31"
+    "Bookmark": {
+      "MnemonicAvailable": {
+        "background": "grey80",
+        "borderColor": "grey80",
+        "foreground": "white"
+      },
+      "MnemonicAssigned": {
+        "foreground": "white",
+        "background": "orange10"
+      },
+      "MnemonicCurrent": {
+        "background": "blueaccent",
+        "foreground": "white"
+      },
+      "Mnemonic": {
+        "iconBackground": "grey50",
+        "iconBorderColor": "grey80",
+        "iconForeground": "white"
+      }
     },
     "Borders": {
       "color": "grey80",
@@ -134,11 +143,6 @@
       "background": "blueaccent",
       "foreground": "white"
     },
-    "CurrentMnemonic": {
-      "foreground": "white",
-      "background": "blueaccent",
-      "borderColor": "blueaccent"
-    },
     "DebuggerPopup.borderColor": "grey34",
     "DefaultTabs": {
       "underlineColor": "orange49",
@@ -151,7 +155,7 @@
     "DragAndDrop": {
       "areaForeground": "white",
       "areaBackground": "grey34",
-      "areaBorderColor": "grey34"
+      "borderColor": "grey34"
     },
     "Editor": {
       "background": "grey34",
@@ -165,10 +169,18 @@
       "selectionBackground": "blueaccent"
     },
     "EditorTabs": {
-      "underlineColor": "orange49",
-      "underlineHeight": 1,
-      "underlinedTabBackground": "grey80",
-      "inactiveColoredFileBackground": "grey50"
+      "inactiveColoredFileBackground": "grey50",
+      "inactiveUnderlinedTabBorderColor": "grey80",
+      "inactiveUnderlinedTabBackground": "grey80",
+      "underlineArc": 4,
+      "underlineHeight": 4,
+      "underlinedBorderColor": "orange49",
+      "underlinedTabBackground": "grey34",
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "verticalTabInsets": "-6,8,-6,10",
+      "verticalTabInsets.compact": "0,10,0,10",
+      "tabContentActionsRightInsets": "0,4,0,2"
     },
     "FileColor": {
       "Yellow": "yellow",
@@ -184,8 +196,9 @@
     },
     "Islands": 1,
     "Island": {
-      "arc": 22,
+      "arc": 20,
       "arc.compact": 16,
+      "borderColor": "grey34",
       "borderWidth": 5,
       "borderWidth.compact": 4,
       "inactiveAlpha": 0.44,
@@ -209,6 +222,7 @@
       "secondaryForeground": "blueaccent"
     },
     "MainWindow": {
+      "background": "grey34",
       "Tab": {
         "separatorColor": "border2",
         "borderColor": "grey41"
@@ -218,15 +232,9 @@
       "usedBackground": "orange10",
       "allocatedBackground": "grey50"
     },
-    "MnemonicIcon": {
-      "foreground": "white",
-      "background": "grey50",
-      "borderColor": "grey80"
-    },
     "NewClass": {
       "SearchField.background": "grey80",
-      "Panel.background": "grey80",
-      "separatorWidth": 4
+      "Panel.background": "grey80"
     },
     "List": {
       "background": "grey50",
@@ -237,7 +245,8 @@
       "selectionInactiveBackground": "grey80"
     },
     "MainToolbar": {
-      "background": "grey60_63_65"
+      "background": "grey60_63_65",
+      "borderColor": "grey60_63_65_transparent"
     },
     "Menu": {
       "foreground": "white",
@@ -274,15 +283,6 @@
       "currentParameterForeground": "blueaccent"
     },
     "Plugins": {
-      "Tab": {
-        "selectedForeground": "white",
-        "selectedBackground": "grey50",
-        "hoverBackground": "orange49"
-      },
-      "SearchField.borderColor": "grey34",
-      "SectionHeader.background": "grey50",
-      "tagBackground": "orange10",
-      "tagForeground": "grey153",
       "Button": {
         "installBackground": "grey80",
         "installBorderColor": "grey80",
@@ -293,6 +293,14 @@
         "updateBackground": "grey50",
         "updateBorderColor": "grey80"
       },
+      "Tab": {
+        "selectedForeground": "white",
+        "selectedBackground": "grey50",
+        "hoverBackground": "orange49"
+      },
+      "SectionHeader.background": "grey50",
+      "tagBackground": "orange10",
+      "tagForeground": "grey153",
       "lightSelectionBackground": "grey115",
       "disabledForeground": "grey153"
     },
@@ -326,7 +334,6 @@
     "RadioButton.selectionEnabledShadowColor": "blueaccent",
     "RadioButton.foreground": "white",
     "ScrollBar": {
-      "width": 2,
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
@@ -388,7 +395,7 @@
       "borderColor": "grey34",
       "background": "orange10"
     },
-    "StatusBar.borderColor": "grey34",
+    "StatusBar.borderColor": "grey34_transparent",
     "TabbedPane": {
       "contentAreaColor": "orange10",
       "disabledUnderlineColor": "grey153",
@@ -404,7 +411,6 @@
       "lightSelectionInactiveBackground": "grey50",
       "selectionBackground": "blueaccent",
       "selectionForeground": "yellowMac",
-      "highlightOuter": "blueaccent",
       "foreground": "white"
     },
     "TableHeader": {
@@ -437,6 +443,7 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
+      "background": "grey34",
       "Button": {
         "hoverBackground": "grey117",
         "selectedBackground": "grey80",
@@ -452,6 +459,9 @@
         "hoverInactiveBackground": "orange10",
         "underlineColor": "orange49",
         "inactiveUnderlineColor": "blueaccent"
+      },
+      "Stripe": {
+        "borderColor": "grey34_transparent"
       }
     },
     "TitlePane": {
