@@ -127,7 +127,7 @@ jobs:
           echo "name=$NAME"
           echo "changelog=$CHANGELOG"
           echo "artifact=$ARTIFACT"
-          } >> $GITHUB_OUTPUT
+          } >> "$GITHUB_OUTPUT"
       # Build artifact using buildPlugin Gradle task
       - name: Build Plugin
         run: ./gradlew buildPlugin
@@ -182,7 +182,7 @@ jobs:
           {
           echo "ideVersions=$IDE_VERSIONS"
           echo "pluginVerifierHomeDir=~/.pluginVerifier"
-          } >> $GITHUB_OUTPUT
+          } >> "$GITHUB_OUTPUT"
       # Cache Plugin Verifier IDEs
       - name: Setup Plugin Verifier IDEs Cache
         uses: actions/cache@v3.0.5
