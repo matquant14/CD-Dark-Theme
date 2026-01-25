@@ -170,7 +170,7 @@
     },
     "EditorTabs": {
       "inactiveColoredFileBackground": "grey50",
-      "inactiveUnderlinedTabBorderColor": "grey80",
+      "inactiveUnderlinedTabBorderColor": "grey153",
       "inactiveUnderlinedTabBackground": "grey80",
       "underlineArc": 4,
       "underlineHeight": 4,
@@ -443,10 +443,10 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
-      "background": "grey34",
+      "background": "grey80",
       "Button": {
         "hoverBackground": "grey117",
-        "selectedBackground": "grey80",
+        "selectedBackground": "grey34",
         "selectedForeground": "white"
       },
       "Header": {
