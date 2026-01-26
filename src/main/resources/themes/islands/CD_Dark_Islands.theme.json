@@ -5,7 +5,7 @@
     "blackgrey33": "#191d21ff",
     "blue": "#0039cb",
     "blue208": "#306cd0ff",
-    "blue55_95_173": "#375fadff",
+    "blue55_95_173": "#375fad",
     "blueWinPalette": "#409AE1",
     "blueaccent": "#3a76f4ff",
     "bluelight": "#78dce8",
@@ -30,6 +30,7 @@
     "grey41": "#292929ff",
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
+    "grey60": "#3C3C3Cff",
     "grey60_63_65": "#3C3F41",
     "grey60_63_65_transparent": "#3C3F4100",
     "grey80": "#505050ff",
@@ -49,7 +50,7 @@
     "redmonokaipro": "#ff6188",
     "textcolor": "#f9f6ef",
     "todo": "#ff3f72",
-    "transparentViolet": "#9478F67f",
+    "transparentViolet": "#9478F6",
     "violet": "#b200ed",
     "white": "#ffffffff",
     "whiteoff": "#E6E6E6",
@@ -59,12 +60,16 @@
   },
   "dark": true,
   "editorScheme": "/themes/islands/CD_Dark_Islands.xml",
-  "name": "CD Dark Islands Theme",
+  "name": "CD Dark Islands",
   "ui": {
     "*": {
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "underlineHeight": 1
+      "background": "grey80",
+      "disabledForeground": "grey153",
+      "foreground": "white",
+      "underlineHeight": 1,
+      "modifiedItemForeground": "white"
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
@@ -92,12 +97,12 @@
     },
     "Borders": {
       "color": "grey80",
-      "ContrastBorderColor": "greyblue97"
+      "ContrastBorderColor": "blackgrey33"
     },
     "Button": {
       "startBackground": "grey80",
       "endBackground": "grey80",
-      "startBorderColor": "grey80",
+      "startBorderColor": "blue55_95_173",
       "endBorderColor": "blue55_95_173",
       "disabledText": "white",
       "focusedBorderColor": "grey80",
@@ -106,8 +111,8 @@
         "foreground": "white",
         "startBackground": "grey80",
         "endBackground": "grey80",
-        "startBorderColor": "grey80",
-        "endBorderColor": "grey80",
+        "startBorderColor": "blue55_95_173",
+        "endBorderColor": "blue55_95_173",
         "focusedBorderColor": "grey80",
         "focusColor": "grey80"
       }
@@ -169,12 +174,14 @@
       "selectionBackground": "blueaccent"
     },
     "EditorTabs": {
+      "background": "panelbackground",
       "inactiveColoredFileBackground": "grey50",
       "inactiveUnderlinedTabBorderColor": "grey153",
       "inactiveUnderlinedTabBackground": "grey80",
       "underlineArc": 4,
       "underlineHeight": 4,
       "underlinedBorderColor": "orange49",
+      "underlinedTabForeground": "white",
       "underlinedTabBackground": "grey34",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
@@ -259,7 +266,14 @@
     },
     "NavBar.borderColor": "whiteoff",
     "Notification": {
-      "MoreButton.innerBorderColor": "grey80",
+      "background": "grey37",
+      "errorBackground": "red",
+      "errorBorderColor": "#593D41",
+      "errorForeground": "white",
+      "MoreButton": {
+        "innerBorderColor": "grey80",
+        "foreground": "white"
+      },
       "ToolWindow": {
         "informativeForeground": "yellowMac",
         "informativeBackground": "black",
@@ -270,11 +284,7 @@
         "errorForeground": "white",
         "errorBackground": "red28",
         "errorBorderColor": "red28"
-      },
-      "background": "grey37",
-      "errorBackground": "red",
-      "errorBorderColor": "#593D41",
-      "errorForeground": "white"
+      }
     },
     "ParameterInfo": {
       "background": "grey50",
@@ -443,7 +453,7 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
-      "background": "grey80",
+      "background": "grey60",
       "Button": {
         "hoverBackground": "grey117",
         "selectedBackground": "grey34",

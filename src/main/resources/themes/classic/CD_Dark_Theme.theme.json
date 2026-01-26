@@ -4,62 +4,64 @@
     "black": "#000000",
     "blackgrey33": "#191d21ff",
     "blue": "#0039cb",
-    "blueaccent": "#3a76f4ff",
     "blue208": "#306cd0ff",
+    "blue55_95_173": "#375fad",
     "blueWinPalette": "#409AE1",
+    "blueaccent": "#3a76f4ff",
     "bluelight": "#78dce8",
     "bluelight2": "#70D7FF",
-    "darkgreen": "#014f01ff",
-    "forestgreen": "#1B5E20",
     "brightgreen": "#09ab06",
+    "consolebackground": "#191919",
+    "darkgreen": "#014f01ff",
+    "editorbackground": "#212121",
+    "forestgreen": "#1B5E20",
     "green": "#43E139",
-    "grey41": "#292929ff",
-    "grey80": "#505050ff",
-    "grey6365": "#3C3F41",
-    "grey50": "#323232ff",
-    "grey35": "#232323",
-    "grey34": "#222222",
-    "grey36": "#242424",
     "grey115": "#737373ff",
     "grey117": "#757575ff",
     "grey153": "#999999ff",
-    "grey44": "#2c2c2cff",
-    "greyblue97": "#565d61ff",
+    "grey34": "#222222",
+    "grey35": "#232323",
+    "grey36": "#242424",
     "grey37": "#252525ff",
+    "grey41": "#292929ff",
+    "grey44": "#2c2c2cff",
+    "grey50": "#323232ff",
+    "grey60": "#3C3C3Cff",
+    "grey6365": "#3C3F41",
+    "grey80": "#505050ff",
     "greyWinPalette": "#b2b2b2",
-    "orange9": "#ea7209ff",
-    "orange10": "#B84E0A",
-    "orange49": "#F58231",
-    "orange31": "#E0861F",
-    "orangeMonokaiPro": "#fc9867",
-    "transparentViolet": "#9478F67f",
-    "violet": "#b200ed",
+    "greyblue97": "#565d61ff",
     "lightviolet": "#ED94FF",
+    "orange10": "#B84E0A",
+    "orange31": "#E0861F",
+    "orange49": "#F58231",
+    "orange9": "#ea7209ff",
+    "orangeMonokaiPro": "#fc9867",
+    "panelText": "#a6a6a6",
+    "panelbackground": "#333333",
     "red": "#fc0505",
     "red28": "#B71C1C",
     "redmac": "#fb3b45",
     "redmonokaipro": "#ff6188",
+    "textcolor": "#f9f6ef",
+    "todo": "#ff3f72",
+    "transparentViolet": "#9478F67f",
+    "violet": "#b200ed",
     "white": "#ffffffff",
     "whiteoff": "#E6E6E6",
     "yellow": "#ffb62c",
-    "yellowWinPalette": "#ffc83d",
     "yellowMac": "#faaa1f",
-    "consolebackground": "#191919",
-    "editorbackground": "#212121",
-    "panelbackground": "#333333",
-    "textcolor": "#f9f6ef",
-    "border": "#3c3c3c",
-    "panelText": "#a6a6a6",
-    "todo": "#ff3f72"
+    "yellowWinPalette": "#ffc83d"
   },
   "dark": true,
   "editorScheme": "/themes/classic/CD_Dark_Theme.xml",
-  "name": "CD Dark Theme",
+  "name": "CD Dark",
   "ui": {
     "*": {
-      "underlineHeight": 1,
+      "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "Component.arc": 8
+      "foreground": "white",
+      "underlineHeight": 1
     },
     "ActionButton": {
       "hoverBackground": "blueaccent",
@@ -85,19 +87,20 @@
     "Button": {
       "startBackground": "grey80",
       "endBackground": "grey80",
-      "startBorderColor": "grey80",
-      "endBorderColor": "grey80",
+      "startBorderColor": "blue55_95_173",
+      "endBorderColor": "blue55_95_173",
       "disabledText": "white",
-      "focusedBorderColor": "grey80",
+      "focusedBorderColor": "blue55_95_173",
       "foreground": "white",
       "default": {
         "foreground": "white",
         "startBackground": "grey80",
         "endBackground": "grey80",
-        "startBorderColor": "grey80",
-        "endBorderColor": "grey80",
+        "startBorderColor": "blue55_95_173",
+        "endBorderColor": "blue55_95_173",
         "focusedBorderColor": "grey80",
-        "focusColor": "grey80"
+        "focusColor": "grey80",
+        "primary"
       }
     },
     "CheckBox.select": "blueaccent",
@@ -119,13 +122,14 @@
     "ComboPopup.border": "1,1,1,1,grey50",
     "CompletionPopup.matchForeground": "orange10",
     "Component": {
+      "arc": 15,
       "errorFocusColor": "#E53935",
-      "inactiveErrorFocusColor": "#743A3A",
-      "warningFocusColor": "yellowWinPalette",
-      "inactiveWarningFocusColor": "#7F6C00",
-      "iconColor": "grey34",
       "hoverIconColor": "grey34",
+      "iconColor": "grey34",
+      "inactiveErrorFocusColor": "#743A3A",
+      "inactiveWarningFocusColor": "#7F6C00",
       "infoForeground": "orange49"
+      "warningFocusColor": "yellowWinPalette",
     },
     "Counter": {
       "background": "blueaccent",
@@ -225,7 +229,13 @@
     },
     "NavBar.borderColor": "whiteoff",
     "Notification": {
-      "MoreButton.innerBorderColor": "grey80",
+      "background": "grey37",
+      "errorBackground": "red",
+      "errorBorderColor": "#593D41",
+      "errorForeground": "white",
+      "MoreButton": {
+        "innerBorderColor": "grey80"
+      },
       "ToolWindow": {
         "informativeForeground": "yellowMac",
         "informativeBackground": "black",
@@ -236,11 +246,7 @@
         "errorForeground": "white",
         "errorBackground": "red28",
         "errorBorderColor": "red28"
-      },
-      "background": "grey37",
-      "errorBackground": "red",
-      "errorBorderColor": "#593D41",
-      "errorForeground": "white"
+      }
     },
     "ParameterInfo": {
       "background": "grey50",
@@ -292,22 +298,26 @@
       "selectionForeground": "white",
       "trackColor": "orange10"
     },
-    "RadioButton.darcula.selectionDisabledShadowColor": "blueaccent",
-    "RadioButton.darcula.selectionEnabledColor": "blueaccent",
-    "RadioButton.darcula.selectionEnabledShadowColor": "blueaccent",
-    "RadioButton.focusColor": "blueaccent",
-    "RadioButton.selectionDisabledShadowColor": "blueaccent",
-    "RadioButton.selectionEnabledColor": "blueaccent",
-    "RadioButton.selectionEnabledShadowColor": "blueaccent",
-    "RadioButton.foreground": "white",
+    "RadioButton": {
+      "darcula": {
+        "selectionDisabledShadowColor": "blueaccent",
+        "selectionEnabledColor": "blueaccent",
+        "selectionEnabledShadowColor": "blueaccent"
+      },
+      "focusColor": "blueaccent",
+      "foreground": "white",
+      "selectionDisabledShadowColor": "blueaccent",
+      "selectionEnabledColor": "blueaccent",
+      "selectionEnabledShadowColor": "blueaccent"
+    },
+    
     "ScrollBar": {
-      "width": 2,
       "Transparent": {
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
         "hoverThumbColor": "blueaccent",
         "hoverThumbBorderColor": "blueaccent",
-        "hoverTrackColor": "0",
+        "hoverTrackColor": "grey80",
         "trackColor": "grey41"
       },
       "thumbColor": "blueaccent",
@@ -412,6 +422,7 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
+      "background": "grey60",
       "Button": {
         "hoverBackground": "grey117",
         "selectedBackground": "grey80",
