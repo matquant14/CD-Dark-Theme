@@ -453,7 +453,7 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
-      "background": "grey60",
+      "background": "grey_60_63_65",
       "Button": {
         "hoverBackground": "grey117",
         "selectedBackground": "grey34",
