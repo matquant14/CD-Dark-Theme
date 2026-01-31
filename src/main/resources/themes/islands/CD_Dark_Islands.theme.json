@@ -31,7 +31,7 @@
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
     "grey60": "#3C3C3Cff",
-    "grey60_63_65": "#3C3F41ff",
+    "grey60_63_65": "#3C3F41",
     "grey60_63_65_transparent": "#3C3F4100",
     "grey80": "#505050ff",
     "greyWinPalette": "#b2b2b2",
@@ -65,7 +65,7 @@
     "*": {
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "background": "grey80",
+      "background": "grey60_63_65",
       "disabledForeground": "grey153",
       "foreground": "white",
       "underlineHeight": 1,
@@ -471,7 +471,7 @@
         "inactiveUnderlineColor": "blueaccent"
       },
       "Stripe": {
-        "borderColor": "grey34_transparent"
+        "borderColor": "grey60_63_65_transparent"
       }
     },
     "TitlePane": {
