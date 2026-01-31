@@ -309,7 +309,6 @@
       "selectionEnabledColor": "blueaccent",
       "selectionEnabledShadowColor": "blueaccent"
     },
-    
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "blueaccent",
@@ -452,7 +451,9 @@
       "selectionForeground": "white",
       "selectionInactiveBackground": "grey115"
     },
-    "SidePanel.background": "grey41",
+    "SidePanel": {
+      "background": "grey41"
+    },
     "ValidationTooltip": {
       "errorBackground": "grey37",
       "errorBorderColor": "grey37",
