@@ -99,8 +99,7 @@
         "startBorderColor": "blue55_95_173",
         "endBorderColor": "blue55_95_173",
         "focusedBorderColor": "grey80",
-        "focusColor": "grey80",
-        "primary"
+        "focusColor": "grey80"
       }
     },
     "CheckBox.select": "blueaccent",
@@ -128,8 +127,8 @@
       "iconColor": "grey34",
       "inactiveErrorFocusColor": "#743A3A",
       "inactiveWarningFocusColor": "#7F6C00",
-      "infoForeground": "orange49"
-      "warningFocusColor": "yellowWinPalette",
+      "infoForeground": "orange49",
+      "warningFocusColor": "yellowWinPalette"
     },
     "Counter": {
       "background": "blueaccent",
