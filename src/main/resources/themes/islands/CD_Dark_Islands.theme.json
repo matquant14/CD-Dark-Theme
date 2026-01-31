@@ -295,10 +295,10 @@
     "Plugins": {
       "Button": {
         "installBackground": "grey80",
-        "installBorderColor": "grey80",
+        "installBorderColor": "orange49",
         "installForeground": "white",
-        "installFillForeground": "grey153",
-        "installFillBackground": "grey80",
+        "installFillForeground": "todo",
+        "installFillBackground": "grey50",
         "updateForeground": "todo",
         "updateBackground": "grey50",
         "updateBorderColor": "grey80"
