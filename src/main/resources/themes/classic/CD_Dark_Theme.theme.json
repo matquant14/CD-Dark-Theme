@@ -102,11 +102,15 @@
         "focusColor": "grey80"
       }
     },
-    "CheckBox.select": "blueaccent",
-    "CheckBox.foreground": "white",
-    "CheckBoxMenuItem.foreground": "white",
-    "CheckBoxMenuItem.disabledForeground": "white",
-    "CheckBoxMenuItem.selectionForeground": "yellowMac",
+    "CheckBox": {
+      "select": "blueaccent",
+      "foreground": "white"
+    },
+    "CheckBoxMenuItem": {
+      "foreground": "white",
+      "disabledForeground": "white",
+      "selectionForeground": "yellowMac"
+    },
     "ComboBox": {
       "ArrowButton": {
         "iconColor": "white",
@@ -118,8 +122,12 @@
       "modifiedItemForeground": "white",
       "nonEditableBackground": "grey34"
     },
-    "ComboPopup.border": "1,1,1,1,grey50",
-    "CompletionPopup.matchForeground": "orange10",
+    "ComboPopup": {
+      "border": "1,1,1,1,#323232ff"
+    },
+    "CompletionPopup": {
+      "matchForeground": "orange10"
+    },
     "Component": {
       "arc": 15,
       "errorFocusColor": "#E53935",
@@ -139,7 +147,9 @@
       "background": "blueaccent",
       "borderColor": "blueaccent"
     },
-    "DebuggerPopup.borderColor": "grey34",
+    "DebuggerPopup": {
+      "borderColor": "grey34"
+    },
     "DefaultTabs": {
       "underlineColor": "orange49",
       "underlinedTabBackground": "grey80",
@@ -226,7 +236,9 @@
       "foreground": "white",
       "disabledForeground": "grey153"
     },
-    "NavBar.borderColor": "whiteoff",
+    "NavBar": {
+      "borderColor": "whiteoff"
+    },
     "Notification": {
       "background": "grey37",
       "errorBackground": "red",
@@ -371,7 +383,9 @@
       "borderColor": "grey50",
       "background": "orange10"
     },
-    "StatusBar.borderColor": "grey34",
+    "StatusBar": {
+      "borderColor": "grey34"
+    },
     "TabbedPane": {
       "contentAreaColor": "orange10",
       "disabledUnderlineColor": "grey153",
