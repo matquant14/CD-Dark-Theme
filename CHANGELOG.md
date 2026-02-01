@@ -1,4 +1,10 @@
 # CD-Dark-Theme Changelog
+### Relase [1.3.1]
+- Adjust Toolbar and Side Panel colors for new Islands theme.
+
+### Release [1.3.0]
+- Support new Islands style theme
+
 ### Release [1.2.18]
 - Remove support for 2022.* releases
 

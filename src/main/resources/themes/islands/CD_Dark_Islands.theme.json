@@ -31,11 +31,12 @@
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
     "grey60": "#3C3C3Cff",
-    "grey60_63_65": "#3C3F41",
+    "greyblue_cobalt": "#1A232D",
+    "greyblue_cobalt_transparent": "#1A232D00",
+    "grey60_63_65": "#3C3F41ff",
     "grey60_63_65_transparent": "#3C3F4100",
     "grey80": "#505050ff",
     "greyWinPalette": "#b2b2b2",
-    "greyblue52_76_125": "#344C7D",
     "greyblue97": "#565d61ff",
     "lightviolet": "#ED94FF",
     "orange10": "#B84E0A",
@@ -66,7 +67,7 @@
     "*": {
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "background": "grey60_63_65",
+      "background": "grey80",
       "disabledForeground": "grey153",
       "foreground": "white",
       "underlineHeight": 1,
@@ -118,15 +119,11 @@
         "focusColor": "grey80"
       }
     },
-    "CheckBox": {
-      "select": "blueaccent",
-      "foreground": "white"
-    },
-    "CheckBoxMenuItem": {
-      "foreground": "white",
-      "disabledForeground": "white",
-      "selectionForeground": "yellowMac"
-    },
+    "CheckBox.select": "blueaccent",
+    "CheckBox.foreground": "white",
+    "CheckBoxMenuItem.foreground": "white",
+    "CheckBoxMenuItem.disabledForeground": "white",
+    "CheckBoxMenuItem.selectionForeground": "yellowMac",
     "ComboBox": {
       "ArrowButton": {
         "iconColor": "white",
@@ -138,12 +135,8 @@
       "modifiedItemForeground": "white",
       "nonEditableBackground": "grey34"
     },
-    "ComboPopup": {
-      "border": "1,1,1,1,#323232ff"
-    },
-    "CompletionPopup": {
-      "matchForeground": "orange10"
-    },
+    "ComboPopup.border": "1,1,1,1,#323232ff",
+    "CompletionPopup.matchForeground": "orange10",
     "Component": {
       "errorFocusColor": "#E53935",
       "inactiveErrorFocusColor": "#743A3A",
@@ -157,9 +150,7 @@
       "background": "blueaccent",
       "foreground": "white"
     },
-    "DebuggerPopup": {
-      "borderColor": "grey34"
-    },
+    "DebuggerPopup.borderColor": "grey34",
     "DefaultTabs": {
       "underlineColor": "orange49",
       "underlinedTabBackground": "grey80",
@@ -263,8 +254,8 @@
       "selectionInactiveBackground": "grey80"
     },
     "MainToolbar": {
-      "background": "grey60_63_65",
-      "borderColor": "grey60_63_65_transparent"
+      "background": "greyblue_cobalt",
+      "borderColor": "greyblue_cobalt_transparent"
     },
     "Menu": {
       "foreground": "white",
@@ -275,9 +266,7 @@
       "foreground": "white",
       "disabledForeground": "grey153"
     },
-    "NavBar": {
-      "borderColor": "whiteoff"
-    },
+    "NavBar.borderColor": "whiteoff",
     "Notification": {
       "background": "grey37",
       "errorBackground": "red",
@@ -308,10 +297,10 @@
     "Plugins": {
       "Button": {
         "installBackground": "grey80",
-        "installBorderColor": "orange49",
+        "installBorderColor": "grey80",
         "installForeground": "white",
-        "installFillForeground": "todo",
-        "installFillBackground": "grey50",
+        "installFillForeground": "grey153",
+        "installFillBackground": "grey80",
         "updateForeground": "todo",
         "updateBackground": "grey50",
         "updateBorderColor": "grey80"
@@ -348,18 +337,14 @@
       "selectionForeground": "white",
       "trackColor": "orange10"
     },
-    "RadioButton": {
-      "darcula": {
-        "selectionDisabledShadowColor": "blueaccent",
-        "selectionEnabledColor": "blueaccent",
-        "selectionEnabledShadowColor": "blueaccent"
-      },
-      "focusColor": "blueaccent",
-      "selectionDisabledShadowColor": "blueaccent",
-      "selectionEnabledColor": "blueaccent",
-      "selectionEnabledShadowColor": "blueaccent",
-      "foreground": "white"
-    },
+    "RadioButton.darcula.selectionDisabledShadowColor": "blueaccent",
+    "RadioButton.darcula.selectionEnabledColor": "blueaccent",
+    "RadioButton.darcula.selectionEnabledShadowColor": "blueaccent",
+    "RadioButton.focusColor": "blueaccent",
+    "RadioButton.selectionDisabledShadowColor": "blueaccent",
+    "RadioButton.selectionEnabledColor": "blueaccent",
+    "RadioButton.selectionEnabledShadowColor": "blueaccent",
+    "RadioButton.foreground": "white",
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "blueaccent",
@@ -422,9 +407,7 @@
       "borderColor": "grey34",
       "background": "orange10"
     },
-    "StatusBar": {
-      "borderColor": "grey34_transparent"
-    },
+    "StatusBar.borderColor": "grey34_transparent",
     "TabbedPane": {
       "contentAreaColor": "orange10",
       "disabledUnderlineColor": "grey153",
@@ -490,7 +473,7 @@
         "inactiveUnderlineColor": "blueaccent"
       },
       "Stripe": {
-        "borderColor": "grey60_63_65_transparent"
+        "borderColor": "grey34_transparent"
       }
     },
     "TitlePane": {
