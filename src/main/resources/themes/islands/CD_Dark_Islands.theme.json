@@ -31,6 +31,8 @@
     "grey44": "#2c2c2cff",
     "grey50": "#323232ff",
     "grey60": "#3C3C3Cff",
+    "greyblue_cobalt": "#1A232D",
+    "greyblue_cobalt_transparent": "#1A232D00",
     "grey60_63_65": "#3C3F41ff",
     "grey60_63_65_transparent": "#3C3F4100",
     "grey80": "#505050ff",
@@ -252,8 +254,8 @@
       "selectionInactiveBackground": "grey80"
     },
     "MainToolbar": {
-      "background": "grey60_63_65",
-      "borderColor": "grey60_63_65_transparent"
+      "background": "greyblue_cobalt",
+      "borderColor": "greyblue_cobalt_transparent"
     },
     "Menu": {
       "foreground": "white",
