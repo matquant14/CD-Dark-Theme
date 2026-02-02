@@ -1,5 +1,8 @@
 # CD-Dark-Theme Changelog
-### Relase [1.3.1]
+### Release [1.3.2]
+-Adjust ToolWindow background color for new Islands theme.
+
+### Release [1.3.1]
 - Adjust Toolbar and Side Panel colors for new Islands theme.
 
 ### Release [1.3.0]
