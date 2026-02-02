@@ -310,14 +310,14 @@
     },
     "Plugins": {
       "Button": {
-        "installBackground": "grey80",
-        "installBorderColor": "grey80",
+        "installBackground": "blueaccent",
+        "installBorderColor": "yellowMac",
         "installForeground": "white",
         "installFillForeground": "white",
         "installFillBackground": "grey50",
         "updateForeground": "todo",
         "updateBackground": "grey50",
-        "updateBorderColor": "grey80"
+        "updateBorderColor": "orange49"
       },
       "Tab": {
         "selectedForeground": "white",
@@ -330,10 +330,11 @@
       "SearchField": {
         "background": "grey60_63_65"
       },
+      "background": "grey60_63_65",
       "tagBackground": "orange10",
       "tagForeground": "grey153",
       "lightSelectionBackground": "grey115",
-      "disabledForeground": "grey153"
+      "disabledForeground": "black"
     },
     "Popup": {
       "inactiveBorderColor": "grey34",
