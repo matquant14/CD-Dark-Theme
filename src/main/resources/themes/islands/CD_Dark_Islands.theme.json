@@ -314,7 +314,7 @@
         "installBackground": "blueaccent",
         "installBorderColor": "yellowMac",
         "installForeground": "white",
-        "installFillForeground": "white",
+        "installFillForeground": "todo",
         "installFillBackground": "grey50",
         "updateForeground": "todo",
         "updateBackground": "grey50",
