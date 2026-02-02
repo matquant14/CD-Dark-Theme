@@ -122,7 +122,8 @@
     },
     "CheckBox": {
       "select": "blueaccent",
-      "foreground": "white"
+      "foreground": "white",
+      "background": "grey60_63_65"
     },
     "CheckBoxMenuItem": {
       "foreground": "white",
