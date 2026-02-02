@@ -21,7 +21,7 @@
     "grey115": "#737373ff",
     "grey117": "#757575ff",
     "grey153": "#545454ff",
-    "grey252628": "#232323ff",
+    "grey25_26_28": "#232323ff",
     "grey34": "#191a1c",
     "grey34_transparent": "#22222200",
     "grey35": "#232323",
@@ -67,7 +67,7 @@
     "*": {
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
-      "background": "grey80",
+      "background": "grey60_63_65",
       "disabledForeground": "grey153",
       "foreground": "white",
       "underlineHeight": 1,
@@ -119,15 +119,19 @@
         "focusColor": "grey80"
       }
     },
-    "CheckBox.select": "blueaccent",
-    "CheckBox.foreground": "white",
-    "CheckBoxMenuItem.foreground": "white",
-    "CheckBoxMenuItem.disabledForeground": "white",
-    "CheckBoxMenuItem.selectionForeground": "yellowMac",
+    "CheckBox": {
+      "select": "blueaccent",
+      "foreground": "white"
+    },
+    "CheckBoxMenuItem": {
+      "foreground": "white",
+      "disabledForeground": "white",
+      "selectionForeground": "yellowMac"
+    },
     "ComboBox": {
       "ArrowButton": {
         "iconColor": "white",
-        "disabledIconColor": "grey153",
+        "disabledIconColor": "grey34",
         "nonEditableBackground": "grey34"
       },
       "foreground": "yellowMac",
@@ -135,8 +139,12 @@
       "modifiedItemForeground": "white",
       "nonEditableBackground": "grey34"
     },
-    "ComboPopup.border": "1,1,1,1,#323232ff",
-    "CompletionPopup.matchForeground": "orange10",
+    "ComboPopup": {
+      "border": "1,1,1,1,#323232ff"
+    },
+    "CompletionPopup": {
+      "matchForeground": "orange10"
+    },
     "Component": {
       "errorFocusColor": "#E53935",
       "inactiveErrorFocusColor": "#743A3A",
@@ -150,7 +158,9 @@
       "background": "blueaccent",
       "foreground": "white"
     },
-    "DebuggerPopup.borderColor": "grey34",
+    "DebuggerPopup": {
+      "borderColor": "grey34"
+    },
     "DefaultTabs": {
       "underlineColor": "orange49",
       "underlinedTabBackground": "grey80",
@@ -241,10 +251,6 @@
       "usedBackground": "orange10",
       "allocatedBackground": "grey50"
     },
-    "NewClass": {
-      "SearchField.background": "grey80",
-      "Panel.background": "panelbackground"
-    },
     "List": {
       "background": "grey50",
       "dropLineColor": "white",
@@ -258,15 +264,18 @@
       "borderColor": "greyblue_cobalt_transparent"
     },
     "Menu": {
+      "background": "grey80",
       "foreground": "white",
       "selectionForeground": "white",
-      "disabledForeground": "grey153"
+      "disabledForeground": "black"
     },
     "MenuItem": {
       "foreground": "white",
-      "disabledForeground": "grey153"
+      "disabledForeground": "black"
     },
-    "NavBar.borderColor": "whiteoff",
+    "NavBar": {
+      "borderColor": "whiteoff"
+    },
     "Notification": {
       "background": "grey37",
       "errorBackground": "red",
@@ -288,6 +297,9 @@
         "errorBorderColor": "red28"
       }
     },
+    "Panel": {
+      "background": "panelbackground"
+    },
     "ParameterInfo": {
       "background": "grey50",
       "foreground": "white",
@@ -299,8 +311,8 @@
         "installBackground": "grey80",
         "installBorderColor": "grey80",
         "installForeground": "white",
-        "installFillForeground": "grey153",
-        "installFillBackground": "grey80",
+        "installFillForeground": "white",
+        "installFillBackground": "grey50",
         "updateForeground": "todo",
         "updateBackground": "grey50",
         "updateBorderColor": "grey80"
@@ -310,7 +322,12 @@
         "selectedBackground": "grey50",
         "hoverBackground": "orange49"
       },
-      "SectionHeader.background": "grey50",
+      "SectionHeader": {
+        "background": "grey50"
+      },
+      "SearchField": {
+        "background": "grey60_63_65"
+      },
       "tagBackground": "orange10",
       "tagForeground": "grey153",
       "lightSelectionBackground": "grey115",
@@ -318,10 +335,15 @@
     },
     "Popup": {
       "inactiveBorderColor": "grey34",
-      "Toolbar.borderColor": "grey36",
+      "Toolbar": {
+        "borderColor": "grey36",
+        "background": "grey36"
+      },
       "separatorForeground": "white",
-      "Header.activeBackground": "grey50",
-      "Header.inactiveBackground": "grey50",
+      "Header": {
+        "activeBackground": "grey50",
+        "inactiveBackground": "grey50"
+      },
       "Advertiser": {
         "background": "grey34",
         "foreground": "blueaccent"
@@ -337,14 +359,19 @@
       "selectionForeground": "white",
       "trackColor": "orange10"
     },
-    "RadioButton.darcula.selectionDisabledShadowColor": "blueaccent",
-    "RadioButton.darcula.selectionEnabledColor": "blueaccent",
-    "RadioButton.darcula.selectionEnabledShadowColor": "blueaccent",
-    "RadioButton.focusColor": "blueaccent",
-    "RadioButton.selectionDisabledShadowColor": "blueaccent",
-    "RadioButton.selectionEnabledColor": "blueaccent",
-    "RadioButton.selectionEnabledShadowColor": "blueaccent",
-    "RadioButton.foreground": "white",
+    "RadioButton": {
+      "foreground": "white",
+      "darcula": {
+        "selectionDisabledShadowColor": "blueaccent",
+        "selectionEnabledColor": "blueaccent",
+        "selectionEnabledShadowColor": "blueaccent",
+        "focusColor": "blueaccent"
+      }
+    },
+    "RadioButtonMenuItem": {
+      "acceleratorForeground": "white",
+      "disabledForeground": ""
+    },
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "blueaccent",
@@ -388,7 +415,7 @@
         "selectedBackground": "orange10"
       },
       "SearchField": {
-        "background": "grey80",
+        "background": "grey60_63_65",
         "borderColor": "grey34",
         "infoForeground": "orange49"
       },
@@ -407,7 +434,12 @@
       "borderColor": "grey34",
       "background": "orange10"
     },
-    "StatusBar.borderColor": "grey34_transparent",
+    "SplitPane": {
+      "background": "grey60_63_65"
+    },
+    "StatusBar": {
+      "borderColor": "grey34_transparent"
+    },
     "TabbedPane": {
       "contentAreaColor": "orange10",
       "disabledUnderlineColor": "grey153",
@@ -455,14 +487,14 @@
       "Actions.infoForeground": "white"
     },
     "ToolWindow": {
-      "background": "grey60_63_65",
+      "background": "grey60",
       "Button": {
         "hoverBackground": "grey117",
         "selectedBackground": "grey34",
         "selectedForeground": "white"
       },
       "Header": {
-        "background": "grey80",
+        "background": "grey34",
         "inactiveBackground": "grey41"
       },
       "HeaderTab": {
@@ -481,13 +513,13 @@
     },
     "Tree": {
       "modifiedItemForeground": "orange10",
-      "hoverBackground": "grey117",
+      "hoverBackground": "grey80",
       "hoverInactiveBackground": "grey41",
       "foreground": "white",
       "background": "grey60_63_65",
-      "selectionBackground": "grey115",
+      "selectionBackground": "blue55_95_173",
       "selectionForeground": "white",
-      "selectionInactiveBackground": "grey115"
+      "selectionInactiveBackground": "blue55_95_173"
     },
     "SidePanel": {
       "background": "grey60_63_65"
@@ -499,19 +531,26 @@
       "warningBorderColor": "grey37"
     },
     "VersionControl": {
-      "Log.Commit": {
-        "currentBranchBackground": "grey36",
-        "unmatchedForeground": "white"
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "grey36",
+          "unmatchedForeground": "white"
+        },
+        "RefLabel": {
+          "backgroundBase": "orange10",
+          "foreground": "white"
+        },
+        "FileHistory.Commit.selectedBranchBackground": "grey80"
       },
-      "RefLabel": {
-        "backgroundBase": "orange10",
-        "foreground": "white"
-      },
-      "FileHistory.Commit.selectedBranchBackground": "grey80"
-    },
-    "WelcomeScreen": {
-      "Projects.selectionInactiveBackground": "grey50",
-      "separatorColor": "grey50"
+      "WelcomeScreen": {
+        "Projects": {
+          "selectionInactiveBackground": "grey50"
+        },
+        "SidePanel": {
+          "background": "grey60_63_65"
+        },
+        "separatorColor": "grey50"
+      }
     }
   }
 }
