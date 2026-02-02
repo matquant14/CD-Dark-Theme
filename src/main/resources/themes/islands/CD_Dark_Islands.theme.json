@@ -65,6 +65,7 @@
   "name": "CD Dark Islands",
   "ui": {
     "*": {
+      "acceleratorForeground": "orange49",
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
       "background": "grey60_63_65",
@@ -255,7 +256,7 @@
       "background": "grey50",
       "dropLineColor": "white",
       "foreground": "yellowMac",
-      "selectionBackground": "grey115",
+      "selectionBackground": "grey60_63_65",
       "selectionForeground": "yellow",
       "selectionInactiveBackground": "grey80"
     },
@@ -264,14 +265,15 @@
       "borderColor": "greyblue_cobalt_transparent"
     },
     "Menu": {
-      "background": "grey80",
+      "background": "grey60_63_65",
       "foreground": "white",
       "selectionForeground": "white",
       "disabledForeground": "black"
     },
     "MenuItem": {
+      "acceleratorForeground": "orange49",
       "foreground": "white",
-      "disabledForeground": "black"
+      "disabledForeground": "orange49"
     },
     "NavBar": {
       "borderColor": "whiteoff"
@@ -505,6 +507,7 @@
         "inactiveUnderlineColor": "blueaccent"
       },
       "Stripe": {
+        "background": "grey60_63_65",
         "borderColor": "grey34_transparent"
       }
     },
