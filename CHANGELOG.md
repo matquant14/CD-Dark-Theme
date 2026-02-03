@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.3.3]
+- Adjust List selection background color for new Islands theme.
+
 ### Release [1.3.2]
 -Adjust ToolWindow background color for new Islands theme.
 
