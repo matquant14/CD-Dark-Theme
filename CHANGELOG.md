@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.3.6]
+- Adjusted Editor Colors for all supported languages.
+
 ### Release [1.3.5]
 - Remove italics for Rust language.
 
