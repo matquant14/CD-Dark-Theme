@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.3.5]
+- Remove italics for Rust language.
+
 #### Release [1.3.4]
 - Remove italics for default language static method and fields.
 
