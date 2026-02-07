@@ -304,7 +304,6 @@
         <option name = "DEFAULT_CONSTANT">
             <value>
                 <option name = "FOREGROUND" value = "ff64d6"/>
-                <option name = "FONT_TYPE" value = "2"/>
             </value>
         </option>
         <option name = "DEFAULT_DOC_COMMENT">
@@ -983,13 +982,11 @@
         <option name = "org.rust.ENUM">
             <value>
                 <option name = "FOREGROUND" value = "1d71ee"/>
-                <option name = "FONT_TYPE" value = "2"/>
             </value>
         </option>
         <option name = "org.rust.ENUM_VARIANT">
             <value>
                 <option name = "FOREGROUND" value = "4fd2f6"/>
-                <option name = "FONT_TYPE" value = "2"/>
             </value>
         </option>
         <option name = "org.rust.FUNCTION_CALL">
@@ -1005,7 +1002,6 @@
         <option name = "org.rust.LIFETIME">
             <value>
                 <option name = "FOREGROUND" value = "31d6dc"/>
-                <option name = "FONT_TYPE" value = "2"/>
             </value>
         </option>
         <option name = "org.rust.MACRO">
@@ -1090,7 +1086,6 @@
         <option name = "org.rust.TYPE_ALIAS">
             <value>
                 <option name = "FOREGROUND" value = "4fd2f6"/>
-                <option name = "FONT_TYPE" value = "2"/>
             </value>
         </option>
         <option name = "org.rust.TYPE_PARAMETER">
