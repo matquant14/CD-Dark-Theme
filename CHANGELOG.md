@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+#### Release [1.3.4]
+- Remove italics for default language static method and fields.
+
 ### Release [1.3.3]
 - Adjust List selection background color for new Islands theme.
 
