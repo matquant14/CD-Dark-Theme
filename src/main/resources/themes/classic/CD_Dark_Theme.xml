@@ -399,13 +399,13 @@
         <option name = "DEFAULT_STATIC_FIELD">
             <value>
                 <option name = "FOREGROUND" value = "ed94ff"/>
-                <option name = "FONT_TYPE" value = "2"/>
+                <option name = "FONT_TYPE" value = "0"/>
             </value>
         </option>
         <option name = "DEFAULT_STATIC_METHOD">
             <value>
                 <option name = "FOREGROUND" value = "13b9ff"/>
-                <option name = "FONT_TYPE" value = "2"/>
+                <option name = "FONT_TYPE" value = "0"/>
             </value>
         </option>
         <option name = "DEFAULT_STRING">
