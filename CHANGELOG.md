@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.3.7]
+- Change `tagForeground` color to white
+
 ### Release [1.3.6]
 - Adjusted Editor Colors for all supported languages.
 
