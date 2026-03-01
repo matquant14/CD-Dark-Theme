@@ -336,7 +336,7 @@
       },
       "background": "grey60_63_65",
       "tagBackground": "orange10",
-      "tagForeground": "grey153",
+      "tagForeground": "white",
       "lightSelectionBackground": "grey115",
       "disabledForeground": "black"
     },
