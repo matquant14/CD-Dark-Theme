@@ -69,7 +69,7 @@
       "Component.arc": 15,
       "ScrollBar.thumb.arc": 10,
       "background": "grey60_63_65",
-      "disabledForeground": "grey153",
+      "disabledForeground": "black",
       "foreground": "white",
       "underlineHeight": 1,
       "modifiedItemForeground": "white"
@@ -277,7 +277,7 @@
     "MenuItem": {
       "acceleratorForeground": "orange49",
       "foreground": "white",
-      "disabledForeground": "orange49"
+      "disabledForeground": "black"
     },
     "NavBar": {
       "borderColor": "whiteoff"
