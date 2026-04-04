@@ -1,4 +1,7 @@
 # CD-Dark-Theme Changelog
+### Release [1.3.9]
+- Deploy signed version of plugin.
+
 ### Release [1.3.8]
 - Change menu item diasbled text color to black.
 
