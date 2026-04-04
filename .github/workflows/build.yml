@@ -211,6 +211,9 @@ jobs:
       - name: Remove Old Release Drafts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CD_DARK_PLUGIN_SIGN_CERTIFICATE_CHAIN: ${{ secrets.CD_DARK_PLUGIN_SIGN_CERTIFICATE_CHAIN }}
+          CD_DARK_PLUGIN_SIGN_PRIVATE_KEY: ${{ secrets.CD_DARK_PLUGIN_SIGN_PRIVATE_KEY }}
+          CD_DARK_PLUGIN_SIGN_PRIVATE_KEY_PASSWORD: ${{ secrets.CD_DARK_PLUGIN_SIGN_PRIVATE_KEY_PASSWORD }}
         run: |
           curl -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/repos/$GITHUB_REPOSITORY/releases \
             | tr '\r\n' ' ' \

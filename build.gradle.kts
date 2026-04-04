@@ -79,6 +79,11 @@ intellijPlatform {
             sinceBuild = providers.gradleProperty("pluginSinceBuild")
         }
     }
+    signing {
+        certificateChain = providers.environmentVariable("CD_DARK_PLUGIN_SIGN_CERTIFICATE_CHAIN")
+        privateKey = providers.environmentVariable("CD_DARK_PLUGIN_SIGN_PRIVATE_KEY")
+        password = providers.environmentVariable("CD_DARK_PLUGIN_SIGN_PRIVATE_KEY_PASSWORD")
+    }
 
     // Configure the plugin's deployment to the JetBrains Plugin Repository
     publishing {
