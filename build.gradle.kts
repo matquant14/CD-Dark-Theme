@@ -108,7 +108,7 @@ kover {
     reports {
         total {
             xml {
-                onCheck = true
+                onCheck = false
             }
         }
     }
