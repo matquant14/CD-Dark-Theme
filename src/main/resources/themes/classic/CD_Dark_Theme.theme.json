@@ -365,15 +365,15 @@
           "thumbBorderColor": "blueaccent",
           "hoverThumbColor": "blueaccent",
           "hoverThumbBorderColor": "blueaccent",
-          "hoverTrackColor": "0",
+          "hoverTrackColor": "grey80",
           "trackColor": "grey34"
         },
         "thumbColor": "blueaccent",
         "thumbBorderColor": "blueaccent",
         "hoverThumbColor": "blueaccent",
         "hoverThumbBorderColor": "blueaccent",
-        "trackColor": "blueaccent",
-        "hoverTrackColor": "0"
+        "trackColor": "grey41",
+        "hoverTrackColor": "grey80"
       }
     },
     "SearchEverywhere": {
