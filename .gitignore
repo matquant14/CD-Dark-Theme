@@ -7,3 +7,4 @@ build
 *.csr
 create_envs_cddark_sign_plugin.ps1
 create_envs_cddark_sign_plugin.sh
+publish.sh
